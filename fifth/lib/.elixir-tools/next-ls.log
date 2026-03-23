@@ -1,0 +1,3275 @@
+
+12:20:30.341 [info] Loading 145 CA(s) from :otp store
+
+12:20:30.454 id=1 [debug] handled request client -> server initialize in 69ms
+
+12:20:30.458 [debug] handled notification client -> server textDocument/didOpen in 2ms
+
+12:20:30.458 [debug] sent notification server -> client window/logMessage
+
+12:20:30.460 [debug] NextLS v0.23.4 has initialized!
+
+12:20:30.460 [debug] sent notification server -> client window/logMessage
+
+12:20:30.460 [debug] Log file located at /home/grechman/grechman/advent-of-code/fifth/lib/.elixir-tools/next-ls.log
+
+12:20:30.461 [debug] sent notification server -> client window/logMessage
+
+12:20:30.462 [info] [extension] Credo initializing with options %NextLS.InitOpts.Extensions.Credo{enable: true, cli_options: []}
+
+12:20:33.949 [debug] sent notification server -> client window/logMessage
+
+12:20:33.950 [debug] Booting runtimes...
+
+12:20:33.952 id=68 [debug] sent request server -> client window/workDoneProgress/create
+
+12:20:33.957 [debug] sent notification server -> client $/progress
+
+12:20:33.966 [debug] sent notification server -> client window/logMessage
+
+12:20:33.966 [info] Beginning DB migration...
+
+12:20:33.972 [debug] sent notification server -> client window/logMessage
+
+12:20:33.973 [info] Database is being upgraded from version 0 to 7.
+
+This will trigger a full recompilation in order to re-index your codebase.
+
+
+12:20:33.973 [debug] sent notification server -> client window/logMessage
+
+12:20:33.973 [info] Finished DB migration...
+
+12:20:33.973 [debug] sent notification server -> client window/logMessage
+
+12:20:33.973 [info] Booting runtime for /home/grechman/grechman/advent-of-code/fifth.
+
+- elixir: /usr/bin/elixir
+- zombie wrapper script: /home/grechman/.local/share/.burrito/next_ls_erts-15.2_0.23.4/lib/next_ls-0.23.4/priv/cmd
+- working_dir: /home/grechman/grechman/advent-of-code/fifth
+- command: /usr/bin/elixir --no-halt --sname nextls-runtime-1774257633973612624 --cookie HHYKTHK2JHVUZI3HDBMAF64GPJFPN4AV4Y7CQDE27SSFQKZPVAFQ==== -S mix loadpaths --no-compile
+
+Environment: 
+
+LSP=nextls
+NEXTLS_PARENT_PID=g1h3I25leHQtbHMtMTc3NDI1NzYzMDM1MDUwNzQwM0B6ZW5ib29rAAAA3wAAAABpwQXf
+MIX_ENV=dev
+MIX_TARGET=host
+MIX_BUILD_ROOT=.elixir-tools/_build
+ROOTDIR=false
+BINDIR=false
+RELEASE_ROOT=false
+RELEASE_SYS_CONFIG=false
+PATH=/usr/bin:/home/grechman/.local/share/.burrito/next_ls_erts-15.2_0.23.4/bin:/home/grechman/.local/share/nvim/mason/bin:/home/grechman/.npm-global/bin:/home/grechman/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/grechman/go/bin
+
+
+12:20:33.974 [debug] handled notification client -> server initialized in 3518ms
+
+12:20:35.011 [debug] sent notification server -> client window/logMessage
+
+12:20:35.011 [info] Connected to node nextls-runtime-1774257633973612624@zenbook
+
+12:20:35.341 [debug] sent notification server -> client $/progress
+
+12:20:35.342 [debug] sent notification server -> client window/logMessage
+
+12:20:35.342 [debug] Runtime for folder /home/grechman/grechman/advent-of-code/fifth is ready...
+
+12:20:35.345 id=1701 [debug] sent request server -> client window/workDoneProgress/create
+
+12:20:35.345 [debug] sent notification server -> client $/progress
+
+12:20:35.377 [debug] sent notification server -> client window/logMessage
+
+12:20:35.377 [info] Compiling 1 file (.ex)
+
+
+12:20:35.384 id=98 [debug] sent request server -> client window/workDoneProgress/create
+
+12:20:35.385 [debug] sent notification server -> client $/progress
+
+12:20:35.412 [debug] sent notification server -> client window/logMessage
+
+12:20:35.412 [info] Generated fifth app
+
+
+12:20:35.414 [debug] sent notification server -> client $/progress
+
+12:20:35.414 [debug] sent notification server -> client window/logMessage
+
+12:20:35.414 [info] Compiled /home/grechman/grechman/advent-of-code/fifth!
+
+12:20:35.491 [debug] sent notification server -> client $/progress
+
+12:20:36.819 [debug] handled notification client -> server textDocument/didChange in 14ms
+
+12:20:37.585 [debug] handled notification client -> server textDocument/didChange in 219µs
+
+12:20:50.452 [debug] handled notification client -> server textDocument/didChange in 243µs
+
+12:20:50.545 [debug] handled notification client -> server textDocument/didChange in 244µs
+
+12:20:52.026 [debug] handled notification client -> server textDocument/didChange in 244µs
+
+12:20:52.120 [debug] handled notification client -> server textDocument/didChange in 231µs
+
+12:20:52.271 [debug] handled notification client -> server textDocument/didChange in 235µs
+
+12:20:53.139 [debug] handled notification client -> server textDocument/didChange in 203µs
+
+12:20:53.343 [debug] handled notification client -> server textDocument/didChange in 195µs
+
+12:20:53.729 [debug] handled notification client -> server textDocument/didChange in 238µs
+
+12:20:55.315 [debug] handled notification client -> server textDocument/didChange in 175µs
+
+12:20:55.740 [debug] handled notification client -> server textDocument/didChange in 262µs
+
+12:20:55.890 [debug] handled notification client -> server textDocument/didChange in 227µs
+
+12:20:56.091 [debug] handled notification client -> server textDocument/didChange in 178µs
+
+12:20:56.240 [debug] handled notification client -> server textDocument/didChange in 243µs
+
+12:20:57.254 [debug] handled notification client -> server textDocument/didChange in 199µs
+
+12:20:57.361 [debug] handled notification client -> server textDocument/didChange in 251µs
+
+12:21:01.203 [debug] handled notification client -> server textDocument/didChange in 188µs
+
+12:21:01.353 [debug] handled notification client -> server textDocument/didChange in 208µs
+
+12:21:01.540 [debug] handled notification client -> server textDocument/didChange in 253µs
+
+12:21:01.690 [debug] handled notification client -> server textDocument/didChange in 299µs
+
+12:21:02.085 [debug] handled notification client -> server textDocument/didChange in 202µs
+
+12:21:03.448 [debug] handled notification client -> server textDocument/didChange in 233µs
+
+12:21:03.791 [debug] handled notification client -> server textDocument/didChange in 198µs
+
+12:21:03.941 [debug] handled notification client -> server textDocument/didChange in 235µs
+
+12:21:04.120 [debug] handled notification client -> server textDocument/didChange in 184µs
+
+12:21:04.269 [debug] handled notification client -> server textDocument/didChange in 180µs
+
+12:21:05.343 [debug] handled notification client -> server textDocument/didChange in 181µs
+
+12:21:06.717 [debug] handled notification client -> server textDocument/didChange in 205µs
+
+12:21:07.318 [debug] handled notification client -> server textDocument/didChange in 202µs
+
+12:21:07.793 [debug] handled notification client -> server textDocument/didChange in 196µs
+
+12:21:07.984 [debug] handled notification client -> server textDocument/didChange in 226µs
+
+12:21:08.263 [debug] handled notification client -> server textDocument/didChange in 242µs
+
+12:21:10.865 [debug] handled notification client -> server textDocument/didChange in 177µs
+
+12:21:11.016 [debug] handled notification client -> server textDocument/didChange in 189µs
+
+12:21:11.204 [debug] handled notification client -> server textDocument/didChange in 174µs
+
+12:21:11.354 [debug] handled notification client -> server textDocument/didChange in 217µs
+
+12:21:12.395 [debug] handled notification client -> server textDocument/didChange in 268µs
+
+12:21:12.596 [debug] handled notification client -> server textDocument/didChange in 183µs
+
+12:21:12.747 [debug] handled notification client -> server textDocument/didChange in 201µs
+
+12:21:13.512 [debug] handled notification client -> server textDocument/didChange in 182µs
+
+12:21:49.417 [debug] handled notification client -> server textDocument/didChange in 264µs
+
+12:21:49.624 [debug] handled notification client -> server textDocument/didChange in 212µs
+
+12:21:50.271 [debug] handled notification client -> server textDocument/didChange in 234µs
+
+12:23:38.303 [debug] handled notification client -> server textDocument/didChange in 198µs
+
+12:23:38.673 [debug] handled notification client -> server textDocument/didChange in 197µs
+
+12:23:39.764 [debug] handled notification client -> server textDocument/didChange in 174µs
+
+12:23:42.637 [debug] handled notification client -> server textDocument/didChange in 181µs
+
+12:23:43.067 [debug] handled notification client -> server textDocument/didChange in 205µs
+
+12:23:43.267 [debug] handled notification client -> server textDocument/didChange in 248µs
+
+12:23:44.944 [debug] handled notification client -> server textDocument/didChange in 219µs
+
+12:23:45.093 [debug] handled notification client -> server textDocument/didChange in 202µs
+
+12:23:45.243 [debug] handled notification client -> server textDocument/didChange in 213µs
+
+12:23:45.393 [debug] handled notification client -> server textDocument/didChange in 208µs
+
+12:23:45.561 [debug] handled notification client -> server textDocument/didChange in 207µs
+
+12:23:45.740 [debug] handled notification client -> server textDocument/didChange in 242µs
+
+12:23:45.898 [debug] handled notification client -> server textDocument/didChange in 250µs
+
+12:23:46.048 [debug] handled notification client -> server textDocument/didChange in 232µs
+
+12:23:46.594 [debug] handled notification client -> server textDocument/didChange in 235µs
+
+12:23:46.744 [debug] handled notification client -> server textDocument/didChange in 246µs
+
+12:23:46.893 [debug] handled notification client -> server textDocument/didChange in 207µs
+
+12:23:47.043 [debug] handled notification client -> server textDocument/didChange in 208µs
+
+12:23:47.337 [debug] handled notification client -> server textDocument/didChange in 178µs
+
+12:23:47.510 [debug] handled notification client -> server textDocument/didChange in 207µs
+
+12:23:47.698 [debug] handled notification client -> server textDocument/didChange in 206µs
+
+12:23:47.848 [debug] handled notification client -> server textDocument/didChange in 214µs
+
+12:23:48.452 [debug] handled notification client -> server textDocument/didChange in 241µs
+
+12:23:48.601 [debug] handled notification client -> server textDocument/didChange in 214µs
+
+12:23:48.751 [debug] handled notification client -> server textDocument/didChange in 199µs
+
+12:23:49.812 [debug] handled notification client -> server textDocument/didChange in 249µs
+
+12:23:50.643 [debug] handled notification client -> server textDocument/didChange in 220µs
+
+12:23:50.791 [debug] handled notification client -> server textDocument/didChange in 201µs
+
+12:23:51.614 [debug] handled notification client -> server textDocument/didChange in 212µs
+
+12:23:51.876 [debug] handled notification client -> server textDocument/didChange in 210µs
+
+12:23:53.188 [debug] handled notification client -> server textDocument/didChange in 231µs
+
+12:23:53.300 [debug] handled notification client -> server textDocument/didChange in 248µs
+
+12:23:53.451 [debug] handled notification client -> server textDocument/didChange in 194µs
+
+12:23:54.205 [debug] handled notification client -> server textDocument/didChange in 214µs
+
+12:23:54.355 [debug] handled notification client -> server textDocument/didChange in 195µs
+
+12:23:54.501 [debug] handled notification client -> server textDocument/didChange in 208µs
+
+12:23:55.521 [debug] handled notification client -> server textDocument/didChange in 246µs
+
+12:23:55.671 [debug] handled notification client -> server textDocument/didChange in 230µs
+
+12:23:55.822 [debug] handled notification client -> server textDocument/didChange in 190µs
+
+12:26:53.759 [info] Loading 145 CA(s) from :otp store
+
+12:28:38.243 [info] Loading 145 CA(s) from :otp store
+
+12:32:48.344 id=2 [debug] handled request client -> server shutdown in 1ms
+
+12:32:48.344 id=3 [debug] handled request client -> server shutdown in 199µs
+
+12:32:48.345 [error] Writer crashed (:epipe)
+
+12:32:48.345 [error] GenServer #PID<0.65.0> terminating
+** (stop) :terminated
+Last message: {:EXIT, #PID<0.70.0>, :terminated}
+State: {:state, :user_sup, :undefined, #PID<0.70.0>, {#PID<0.65.0>, :user_sup}}
+
+12:32:48.347 id=130 [debug] sent request server -> client window/workDoneProgress/create
+
+12:32:48.347 [debug] handled notification client -> server textDocument/didSave in 5ms
+
+12:32:48.369 [debug] sent notification server -> client window/logMessage
+
+12:32:48.369 [info] Compiling 1 file (.ex)
+
+
+12:32:48.369 id=162 [debug] sent request server -> client window/workDoneProgress/create
+
+12:32:48.372 [debug] sent notification server -> client window/logMessage
+
+12:32:48.372 [info]     error: undefined variable "ranges_file"
+    │
+  1 │ [ranges_file, index_file] |> File.read!("fifth.txt")
+    │  ^^^^^^^^^^^
+    │
+    └─ lib/fifth.ex:1:2
+
+
+
+12:32:48.377 [debug] sent notification server -> client window/logMessage
+
+12:32:48.377 [info] 
+== Compilation error in file lib/fifth.ex ==
+** (CompileError) lib/fifth.ex: cannot compile file (errors have been logged)
+    (elixir 1.19.5) expanding macro: Kernel.|>/2
+
+
+12:32:48.379 [debug] sent notification server -> client $/progress
+
+12:32:48.379 [debug] sent notification server -> client window/logMessage
+
+12:32:48.379 [info] Compiled /home/grechman/grechman/advent-of-code/fifth!
+
+12:32:48.381 [debug] sent notification server -> client textDocument/publishDiagnostics
+
+12:32:48.471 [debug] sent notification server -> client $/progress
+
+12:32:50.286 [info] Loading 145 CA(s) from :otp store
+
+12:32:50.370 id=1 [debug] handled request client -> server initialize in 48ms
+
+12:37:27.053 [debug] sent notification server -> client window/logMessage
+
+12:37:27.054 [debug] handled notification client -> server textDocument/didOpen in 3ms
+
+12:37:27.056 [debug] NextLS v0.23.4 has initialized!
+
+12:37:27.056 [debug] sent notification server -> client window/logMessage
+
+12:37:27.056 [debug] Log file located at /home/grechman/grechman/advent-of-code/fifth/lib/.elixir-tools/next-ls.log
+
+12:37:27.059 [debug] sent notification server -> client window/logMessage
+
+12:37:27.059 [info] [extension] Credo initializing with options %NextLS.InitOpts.Extensions.Credo{enable: true, cli_options: []}
+
+12:37:29.546 [debug] sent notification server -> client window/logMessage
+
+12:37:29.546 [debug] Booting runtimes...
+
+12:37:29.548 id=2 [debug] sent request server -> client window/workDoneProgress/create
+
+12:37:29.553 [debug] sent notification server -> client $/progress
+
+12:37:29.561 [debug] sent notification server -> client window/logMessage
+
+12:37:29.561 [info] Beginning DB migration...
+
+12:37:29.564 [debug] sent notification server -> client window/logMessage
+
+12:37:29.564 [info] Database is on the latest version: 7
+
+12:37:29.564 [debug] sent notification server -> client window/logMessage
+
+12:37:29.564 [info] Finished DB migration...
+
+12:37:29.564 [debug] sent notification server -> client window/logMessage
+
+12:37:29.564 [info] Booting runtime for /home/grechman/grechman/advent-of-code/fifth.
+
+- elixir: /usr/bin/elixir
+- zombie wrapper script: /home/grechman/.local/share/.burrito/next_ls_erts-15.2_0.23.4/lib/next_ls-0.23.4/priv/cmd
+- working_dir: /home/grechman/grechman/advent-of-code/fifth
+- command: /usr/bin/elixir --no-halt --sname nextls-runtime-1774258649564212270 --cookie HHYKTHK2JHVUZI3HDBMAF64GPJFPN4AV4Y7CQDE27SSFQKZPVAFQ==== -S mix loadpaths --no-compile
+
+Environment: 
+
+LSP=nextls
+NEXTLS_PARENT_PID=g1h3I25leHQtbHMtMTc3NDI1ODM3MDI5MjcyNTkzOUB6ZW5ib29rAAAA4QAAAABpwQjD
+MIX_ENV=dev
+MIX_TARGET=host
+MIX_BUILD_ROOT=.elixir-tools/_build
+ROOTDIR=false
+BINDIR=false
+RELEASE_ROOT=false
+RELEASE_SYS_CONFIG=false
+PATH=/usr/bin:/home/grechman/.local/share/.burrito/next_ls_erts-15.2_0.23.4/bin:/home/grechman/.local/share/nvim/mason/bin:/home/grechman/.npm-global/bin:/home/grechman/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/grechman/go/bin
+
+
+12:37:29.564 [debug] handled notification client -> server initialized in 2515ms
+
+12:37:30.596 [debug] sent notification server -> client window/logMessage
+
+12:37:30.596 [info] Connected to node nextls-runtime-1774258649564212270@zenbook
+
+12:37:30.936 [debug] sent notification server -> client $/progress
+
+12:37:30.937 [debug] sent notification server -> client window/logMessage
+
+12:37:30.937 [debug] Runtime for folder /home/grechman/grechman/advent-of-code/fifth is ready...
+
+12:37:30.939 id=162 [debug] sent request server -> client window/workDoneProgress/create
+
+12:37:30.940 [debug] sent notification server -> client $/progress
+
+12:37:30.969 [debug] sent notification server -> client window/logMessage
+
+12:37:30.969 [info] Compiling 1 file (.ex)
+
+
+12:37:30.972 id=194 [debug] sent request server -> client window/workDoneProgress/create
+
+12:37:30.974 [debug] sent notification server -> client $/progress
+
+12:37:30.985 [debug] sent notification server -> client window/logMessage
+
+12:37:30.985 [info]     error: undefined variable "ranges_file"
+    │
+  1 │ [ranges_file, index_file] |> File.read!("fifth.txt")
+    │  ^^^^^^^^^^^
+    │
+    └─ lib/fifth.ex:1:2
+
+
+
+12:37:30.997 [debug] sent notification server -> client window/logMessage
+
+12:37:30.997 [info] 
+== Compilation error in file lib/fifth.ex ==
+** (CompileError) lib/fifth.ex: cannot compile file (errors have been logged)
+    (elixir 1.19.5) expanding macro: Kernel.|>/2
+
+
+12:37:30.999 [debug] sent notification server -> client $/progress
+
+12:37:30.999 [debug] sent notification server -> client window/logMessage
+
+12:37:31.000 [info] Compiled /home/grechman/grechman/advent-of-code/fifth!
+
+12:37:31.001 [debug] sent notification server -> client textDocument/publishDiagnostics
+
+12:37:31.002 [debug] sent notification server -> client textDocument/publishDiagnostics
+
+12:37:31.078 [debug] sent notification server -> client $/progress
+
+12:41:00.201 id=2 [debug] handled request client -> server shutdown in 1ms
+
+12:41:00.202 id=3 [debug] handled request client -> server shutdown in 266µs
+
+12:41:00.213 [debug] sent notification server -> client window/logMessage
+
+12:41:00.214 [info] The runtime for /home/grechman/grechman/advent-of-code/fifth has successfully shut down.
+
+12:41:00.214 [debug] sent notification server -> client window/logMessage
+
+12:41:00.214 [info] Beginning DB migration...
+
+12:41:00.215 [debug] sent notification server -> client window/logMessage
+
+12:41:00.215 [info] Database is on the latest version: 7
+
+12:41:00.215 [debug] sent notification server -> client window/logMessage
+
+12:41:00.215 [info] Finished DB migration...
+
+12:41:02.624 [info] Loading 145 CA(s) from :otp store
+
+12:41:02.713 id=1 [debug] handled request client -> server initialize in 53ms
+
+12:41:56.665 [debug] sent notification server -> client window/logMessage
+
+12:41:56.666 [debug] handled notification client -> server textDocument/didOpen in 4ms
+
+12:41:56.668 [debug] NextLS v0.23.4 has initialized!
+
+12:41:56.668 [debug] sent notification server -> client window/logMessage
+
+12:41:56.669 [debug] Log file located at /home/grechman/grechman/advent-of-code/fifth/lib/.elixir-tools/next-ls.log
+
+12:41:56.669 [debug] sent notification server -> client window/logMessage
+
+12:41:56.669 [info] [extension] Credo initializing with options %NextLS.InitOpts.Extensions.Credo{enable: true, cli_options: []}
+
+12:41:59.158 [info] Loading 145 CA(s) from :otp store
+
+12:41:59.254 id=1 [debug] handled request client -> server initialize in 52ms
+
+12:41:59.258 [debug] sent notification server -> client window/logMessage
+
+12:41:59.259 [debug] handled notification client -> server textDocument/didOpen in 3ms
+
+12:41:59.261 [debug] NextLS v0.23.4 has initialized!
+
+12:41:59.261 [debug] sent notification server -> client window/logMessage
+
+12:41:59.261 [debug] Log file located at /home/grechman/grechman/advent-of-code/fifth/lib/.elixir-tools/next-ls.log
+
+12:41:59.264 [debug] sent notification server -> client window/logMessage
+
+12:41:59.264 [info] [extension] Credo initializing with options %NextLS.InitOpts.Extensions.Credo{enable: true, cli_options: []}
+
+12:42:02.181 [debug] sent notification server -> client window/logMessage
+
+12:42:02.181 [debug] Booting runtimes...
+
+12:42:02.184 id=1634 [debug] sent request server -> client window/workDoneProgress/create
+
+12:42:02.188 [debug] sent notification server -> client $/progress
+
+12:42:02.197 [debug] sent notification server -> client window/logMessage
+
+12:42:02.197 [info] Beginning DB migration...
+
+12:42:02.200 [debug] sent notification server -> client window/logMessage
+
+12:42:02.200 [info] Database is on the latest version: 7
+
+12:42:02.200 [debug] sent notification server -> client window/logMessage
+
+12:42:02.200 [info] Finished DB migration...
+
+12:42:02.200 [debug] sent notification server -> client window/logMessage
+
+12:42:02.200 [info] Booting runtime for /home/grechman/grechman/advent-of-code/fifth.
+
+- elixir: /usr/bin/elixir
+- zombie wrapper script: /home/grechman/.local/share/.burrito/next_ls_erts-15.2_0.23.4/lib/next_ls-0.23.4/priv/cmd
+- working_dir: /home/grechman/grechman/advent-of-code/fifth
+- command: /usr/bin/elixir --no-halt --sname nextls-runtime-1774258922200139313 --cookie HHYKTHK2JHVUZI3HDBMAF64GPJFPN4AV4Y7CQDE27SSFQKZPVAFQ==== -S mix loadpaths --no-compile
+
+Environment: 
+
+LSP=nextls
+NEXTLS_PARENT_PID=g1h3I25leHQtbHMtMTc3NDI1ODkxOTE2NjY3MzY1MEB6ZW5ib29rAAAA3wAAAABpwQro
+MIX_ENV=dev
+MIX_TARGET=host
+MIX_BUILD_ROOT=.elixir-tools/_build
+ROOTDIR=false
+BINDIR=false
+RELEASE_ROOT=false
+RELEASE_SYS_CONFIG=false
+PATH=/usr/bin:/home/grechman/.local/share/.burrito/next_ls_erts-15.2_0.23.4/bin:/home/grechman/.local/share/nvim/mason/bin:/home/grechman/.npm-global/bin:/home/grechman/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/grechman/go/bin
+
+
+12:42:02.200 [debug] handled notification client -> server initialized in 2945ms
+
+12:42:03.229 [debug] sent notification server -> client window/logMessage
+
+12:42:03.229 [info] Connected to node nextls-runtime-1774258922200139313@zenbook
+
+12:42:03.565 [debug] sent notification server -> client $/progress
+
+12:42:03.566 [debug] sent notification server -> client window/logMessage
+
+12:42:03.566 [debug] Runtime for folder /home/grechman/grechman/advent-of-code/fifth is ready...
+
+12:42:03.567 id=1762 [debug] sent request server -> client window/workDoneProgress/create
+
+12:42:03.568 [debug] sent notification server -> client $/progress
+
+12:42:03.601 [debug] sent notification server -> client window/logMessage
+
+12:42:03.601 [info] Compiling 1 file (.ex)
+
+
+12:42:03.605 id=1794 [debug] sent request server -> client window/workDoneProgress/create
+
+12:42:03.606 [debug] sent notification server -> client $/progress
+
+12:42:03.617 [debug] sent notification server -> client window/logMessage
+
+12:42:03.617 [info]     error: undefined variable "ranges_file"
+    │
+  1 │ [ranges_file, index_file] |> File.read!("fifth.txt")
+    │  ^^^^^^^^^^^
+    │
+    └─ lib/fifth.ex:1:2
+
+
+
+12:42:03.633 [debug] sent notification server -> client window/logMessage
+
+12:42:03.633 [info] 
+== Compilation error in file lib/fifth.ex ==
+** (CompileError) lib/fifth.ex: cannot compile file (errors have been logged)
+    (elixir 1.19.5) expanding macro: Kernel.|>/2
+
+
+12:42:03.635 [debug] sent notification server -> client $/progress
+
+12:42:03.636 [debug] sent notification server -> client window/logMessage
+
+12:42:03.636 [info] Compiled /home/grechman/grechman/advent-of-code/fifth!
+
+12:42:03.637 [debug] sent notification server -> client textDocument/publishDiagnostics
+
+12:42:03.712 [debug] sent notification server -> client $/progress
+
+12:42:24.977 [debug] handled notification client -> server textDocument/didChange in 2ms
+
+12:42:28.912 [debug] handled notification client -> server textDocument/didChange in 252µs
+
+12:42:30.609 [debug] handled notification client -> server textDocument/didChange in 212µs
+
+12:42:30.759 [debug] handled notification client -> server textDocument/didChange in 235µs
+
+12:42:31.339 [debug] handled notification client -> server textDocument/didChange in 202µs
+
+12:42:31.487 [debug] handled notification client -> server textDocument/didChange in 267µs
+
+12:42:32.110 [debug] handled notification client -> server textDocument/didChange in 276µs
+
+12:42:49.958 [debug] handled notification client -> server textDocument/didChange in 243µs
+
+12:42:50.347 [debug] handled notification client -> server textDocument/didChange in 230µs
+
+12:42:50.791 [debug] handled notification client -> server textDocument/didChange in 217µs
+
+12:42:50.793 [debug] handled notification client -> server textDocument/didChange in 279µs
+
+12:42:51.275 [debug] handled notification client -> server textDocument/didChange in 280µs
+
+12:43:01.775 [debug] handled notification client -> server textDocument/didChange in 218µs
+
+12:43:02.118 [debug] handled notification client -> server textDocument/didChange in 254µs
+
+12:43:02.268 [debug] handled notification client -> server textDocument/didChange in 219µs
+
+12:43:03.211 [debug] handled notification client -> server textDocument/didChange in 234µs
+
+12:43:03.537 [debug] handled notification client -> server textDocument/didChange in 251µs
+
+12:43:03.686 [debug] handled notification client -> server textDocument/didChange in 256µs
+
+12:43:03.828 [debug] handled notification client -> server textDocument/didChange in 264µs
+
+12:43:04.953 [debug] handled notification client -> server textDocument/didChange in 223µs
+
+12:43:05.103 [debug] handled notification client -> server textDocument/didChange in 189µs
+
+12:43:05.258 [debug] handled notification client -> server textDocument/didChange in 267µs
+
+12:43:05.406 [debug] handled notification client -> server textDocument/didChange in 235µs
+
+12:43:06.100 [debug] handled notification client -> server textDocument/didChange in 250µs
+
+12:43:06.249 [debug] handled notification client -> server textDocument/didChange in 199µs
+
+12:43:07.793 [debug] handled notification client -> server textDocument/didChange in 190µs
+
+12:43:08.125 [debug] handled notification client -> server textDocument/didChange in 191µs
+
+12:43:08.682 [debug] handled notification client -> server textDocument/didChange in 275µs
+
+12:43:09.242 [debug] handled notification client -> server textDocument/didChange in 271µs
+
+12:43:09.498 [debug] handled notification client -> server textDocument/didChange in 230µs
+
+12:43:09.647 [debug] handled notification client -> server textDocument/didChange in 217µs
+
+12:43:09.732 [debug] handled notification client -> server textDocument/didChange in 289µs
+
+12:43:11.655 [debug] handled notification client -> server textDocument/didChange in 257µs
+
+12:43:11.804 [debug] handled notification client -> server textDocument/didChange in 215µs
+
+12:43:12.223 [debug] handled notification client -> server textDocument/didChange in 238µs
+
+12:43:12.499 [debug] handled notification client -> server textDocument/didChange in 257µs
+
+12:43:12.751 [debug] handled notification client -> server textDocument/didChange in 229µs
+
+12:43:13.180 [debug] handled notification client -> server textDocument/didChange in 190µs
+
+12:43:13.535 [debug] handled notification client -> server textDocument/didChange in 212µs
+
+12:43:18.959 [debug] handled notification client -> server textDocument/didChange in 285µs
+
+12:43:19.352 [debug] handled notification client -> server textDocument/didChange in 190µs
+
+12:43:19.503 [debug] handled notification client -> server textDocument/didChange in 236µs
+
+12:43:21.288 [debug] handled notification client -> server textDocument/didChange in 255µs
+
+12:43:21.438 [debug] handled notification client -> server textDocument/didChange in 216µs
+
+12:43:21.987 [debug] handled notification client -> server textDocument/didChange in 213µs
+
+12:43:22.406 [debug] handled notification client -> server textDocument/didChange in 300µs
+
+12:43:23.421 [debug] handled notification client -> server textDocument/didChange in 316µs
+
+12:43:23.570 [debug] handled notification client -> server textDocument/didChange in 220µs
+
+12:43:24.532 [debug] handled notification client -> server textDocument/didChange in 244µs
+
+12:43:24.683 [debug] handled notification client -> server textDocument/didChange in 228µs
+
+12:43:25.461 [debug] handled notification client -> server textDocument/didChange in 230µs
+
+12:43:25.610 [debug] handled notification client -> server textDocument/didChange in 218µs
+
+12:43:27.372 [debug] handled notification client -> server textDocument/didChange in 194µs
+
+12:43:28.306 [debug] handled notification client -> server textDocument/didChange in 199µs
+
+12:43:28.547 [debug] handled notification client -> server textDocument/didChange in 245µs
+
+12:43:28.660 [debug] handled notification client -> server textDocument/didChange in 230µs
+
+12:43:29.948 [debug] handled notification client -> server textDocument/didChange in 998µs
+
+12:43:31.914 [debug] handled notification client -> server textDocument/didChange in 218µs
+
+12:43:41.039 [debug] handled notification client -> server textDocument/didChange in 272µs
+
+12:43:41.877 [debug] handled notification client -> server textDocument/didChange in 225µs
+
+12:43:43.836 id=163 [debug] sent request server -> client window/workDoneProgress/create
+
+12:43:43.836 [debug] handled notification client -> server textDocument/didSave in 2ms
+
+12:43:43.837 [debug] sent notification server -> client $/progress
+
+12:43:43.841 [debug] sent notification server -> client window/logMessage
+
+12:43:43.841 [info] Compiling 1 file (.ex)
+
+
+12:43:43.842 id=195 [debug] sent request server -> client window/workDoneProgress/create
+
+12:43:43.842 [debug] sent notification server -> client window/logMessage
+
+12:43:43.842 [info]     warning: variable "index_file" is unused (if the variable is not meant to be used, prefix it with an underscore)
+    │
+  1 │ [ranges_file, index_file] = File.read!("fifth.txt")
+    │               ~~~~~~~~~~
+    │
+    └─ lib/fifth.ex:1:15
+
+
+
+12:43:43.842 [debug] sent notification server -> client $/progress
+
+12:43:43.842 [debug] sent notification server -> client window/logMessage
+
+12:43:43.842 [info]     warning: variable "ranges_file" is unused (if the variable is not meant to be used, prefix it with an underscore)
+    │
+  1 │ [ranges_file, index_file] = File.read!("fifth.txt")
+    │  ~~~~~~~~~~~
+    │
+    └─ lib/fifth.ex:1:2
+
+
+
+12:43:43.846 [debug] sent notification server -> client window/logMessage
+
+12:43:43.847 [info] 
+== Compilation error in file lib/fifth.ex ==
+** (File.Error) could not read file "fifth.txt": no such file or directory
+    (elixir 1.19.5) lib/file.ex:435: File.read!/1
+    lib/fifth.ex:1: (file)
+    (elixir 1.19.5) lib/kernel/parallel_compiler.ex:529: anonymous fn/5 in Kernel.ParallelCompiler.spawn_workers/8
+
+
+12:43:43.849 [debug] sent notification server -> client $/progress
+
+12:43:43.849 [debug] sent notification server -> client window/logMessage
+
+12:43:43.849 [info] Compiled /home/grechman/grechman/advent-of-code/fifth!
+
+12:43:43.850 [debug] sent notification server -> client textDocument/publishDiagnostics
+
+12:43:43.850 [debug] sent notification server -> client textDocument/publishDiagnostics
+
+12:43:43.945 [debug] sent notification server -> client $/progress
+
+12:44:03.055 [debug] handled notification client -> server textDocument/didChange in 277µs
+
+12:44:04.849 [debug] handled notification client -> server textDocument/didChange in 233µs
+
+12:44:05.525 [debug] handled notification client -> server textDocument/didChange in 285µs
+
+12:44:05.686 [debug] handled notification client -> server textDocument/didChange in 293µs
+
+12:44:07.163 [debug] handled notification client -> server textDocument/didChange in 210µs
+
+12:44:07.506 [debug] handled notification client -> server textDocument/didChange in 272µs
+
+12:44:07.763 [debug] handled notification client -> server textDocument/didChange in 200µs
+
+12:44:09.187 [debug] handled notification client -> server textDocument/didChange in 196µs
+
+12:44:13.040 id=1826 [debug] sent request server -> client window/workDoneProgress/create
+
+12:44:13.040 [debug] handled notification client -> server textDocument/didSave in 590µs
+
+12:44:13.040 [debug] sent notification server -> client $/progress
+
+12:44:13.044 [debug] sent notification server -> client window/logMessage
+
+12:44:13.044 [info] Compiling 1 file (.ex)
+
+
+12:44:13.045 id=227 [debug] sent request server -> client window/workDoneProgress/create
+
+12:44:13.045 [debug] sent notification server -> client window/logMessage
+
+12:44:13.045 [info]     warning: variable "index_file" is unused (if the variable is not meant to be used, prefix it with an underscore)
+    │
+  1 │ [ranges_file, index_file] = File.read!("lib/fifth.txt")
+    │               ~~~~~~~~~~
+    │
+    └─ lib/fifth.ex:1:15
+
+
+
+12:44:13.045 [debug] sent notification server -> client window/logMessage
+
+12:44:13.045 [info]     warning: variable "ranges_file" is unused (if the variable is not meant to be used, prefix it with an underscore)
+    │
+  1 │ [ranges_file, index_file] = File.read!("lib/fifth.txt")
+    │  ~~~~~~~~~~~
+    │
+    └─ lib/fifth.ex:1:2
+
+
+
+12:44:13.045 [debug] sent notification server -> client $/progress
+
+12:44:13.068 [debug] sent notification server -> client window/logMessage
+
+12:44:13.068 [info] Generated fifth app
+
+
+12:44:13.069 [debug] sent notification server -> client $/progress
+
+12:44:13.069 [debug] sent notification server -> client textDocument/publishDiagnostics
+
+12:44:13.069 [debug] sent notification server -> client window/logMessage
+
+12:44:13.069 [info] Compiled /home/grechman/grechman/advent-of-code/fifth!
+
+12:44:13.070 [debug] sent notification server -> client textDocument/publishDiagnostics
+
+12:44:13.149 [debug] sent notification server -> client $/progress
+
+12:44:56.600 [info] Loading 145 CA(s) from :otp store
+
+12:44:56.733 id=1 [debug] handled request client -> server initialize in 74ms
+
+12:44:56.740 [debug] handled notification client -> server textDocument/didOpen in 3ms
+
+12:44:56.740 [debug] sent notification server -> client window/logMessage
+
+12:44:56.743 [debug] NextLS v0.23.4 has initialized!
+
+12:44:56.743 [debug] sent notification server -> client window/logMessage
+
+12:44:56.743 [debug] Log file located at /home/grechman/grechman/advent-of-code/fifth/lib/.elixir-tools/next-ls.log
+
+12:44:56.743 [debug] sent notification server -> client window/logMessage
+
+12:44:56.743 [info] [extension] Credo initializing with options %NextLS.InitOpts.Extensions.Credo{enable: true, cli_options: []}
+
+12:44:59.261 [debug] sent notification server -> client window/logMessage
+
+12:44:59.261 [debug] Booting runtimes...
+
+12:44:59.264 id=1634 [debug] sent request server -> client window/workDoneProgress/create
+
+12:44:59.269 [debug] sent notification server -> client $/progress
+
+12:44:59.276 [debug] sent notification server -> client window/logMessage
+
+12:44:59.276 [info] Beginning DB migration...
+
+12:44:59.279 [debug] sent notification server -> client window/logMessage
+
+12:44:59.279 [info] Database is on the latest version: 7
+
+12:44:59.280 [debug] sent notification server -> client window/logMessage
+
+12:44:59.280 [info] Finished DB migration...
+
+12:44:59.280 [debug] sent notification server -> client window/logMessage
+
+12:44:59.280 [info] Booting runtime for /home/grechman/grechman/advent-of-code/fifth.
+
+- elixir: /usr/bin/elixir
+- zombie wrapper script: /home/grechman/.local/share/.burrito/next_ls_erts-15.2_0.23.4/lib/next_ls-0.23.4/priv/cmd
+- working_dir: /home/grechman/grechman/advent-of-code/fifth
+- command: /usr/bin/elixir --no-halt --sname nextls-runtime-1774259099279952866 --cookie HHYKTHK2JHVUZI3HDBMAF64GPJFPN4AV4Y7CQDE27SSFQKZPVAFQ==== -S mix loadpaths --no-compile
+
+Environment: 
+
+LSP=nextls
+NEXTLS_PARENT_PID=g1h3I25leHQtbHMtMTc3NDI1OTA5NjYxMjE5MzE4OUB6ZW5ib29rAAAA3wAAAABpwQuZ
+MIX_ENV=dev
+MIX_TARGET=host
+MIX_BUILD_ROOT=.elixir-tools/_build
+ROOTDIR=false
+BINDIR=false
+RELEASE_ROOT=false
+RELEASE_SYS_CONFIG=false
+PATH=/usr/bin:/home/grechman/.local/share/.burrito/next_ls_erts-15.2_0.23.4/bin:/home/grechman/.local/share/nvim/mason/bin:/home/grechman/.npm-global/bin:/home/grechman/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/grechman/go/bin
+
+
+12:44:59.280 [debug] handled notification client -> server initialized in 2543ms
+
+12:44:59.498 id=2 [debug] handled request client -> server shutdown in 1ms
+
+12:44:59.498 id=3 [debug] handled request client -> server shutdown in 141µs
+
+12:44:59.499 [debug] sent notification server -> client window/logMessage
+
+12:44:59.499 [info] The runtime for /home/grechman/grechman/advent-of-code/fifth has successfully shut down.
+
+12:45:11.212 [info] Loading 145 CA(s) from :otp store
+
+12:45:11.345 id=1 [debug] handled request client -> server initialize in 81ms
+
+12:45:11.349 [debug] handled notification client -> server textDocument/didOpen in 2ms
+
+12:45:11.349 [debug] sent notification server -> client window/logMessage
+
+12:45:11.350 [debug] NextLS v0.23.4 has initialized!
+
+12:45:11.350 [debug] sent notification server -> client window/logMessage
+
+12:45:11.350 [debug] Log file located at /home/grechman/grechman/advent-of-code/fifth/lib/.elixir-tools/next-ls.log
+
+12:45:11.353 [debug] sent notification server -> client window/logMessage
+
+12:45:11.353 [info] [extension] Credo initializing with options %NextLS.InitOpts.Extensions.Credo{enable: true, cli_options: []}
+
+12:45:13.772 [debug] sent notification server -> client window/logMessage
+
+12:45:13.773 [debug] Booting runtimes...
+
+12:45:13.775 id=1635 [debug] sent request server -> client window/workDoneProgress/create
+
+12:45:13.780 [debug] sent notification server -> client $/progress
+
+12:45:13.789 [debug] sent notification server -> client window/logMessage
+
+12:45:13.789 [info] Beginning DB migration...
+
+12:45:13.793 [debug] sent notification server -> client window/logMessage
+
+12:45:13.793 [info] Database is on the latest version: 7
+
+12:45:13.793 [debug] sent notification server -> client window/logMessage
+
+12:45:13.793 [info] Finished DB migration...
+
+12:45:13.793 [debug] sent notification server -> client window/logMessage
+
+12:45:13.793 [info] Booting runtime for /home/grechman/grechman/advent-of-code/fifth.
+
+- elixir: /usr/bin/elixir
+- zombie wrapper script: /home/grechman/.local/share/.burrito/next_ls_erts-15.2_0.23.4/lib/next_ls-0.23.4/priv/cmd
+- working_dir: /home/grechman/grechman/advent-of-code/fifth
+- command: /usr/bin/elixir --no-halt --sname nextls-runtime-1774259113793029382 --cookie HHYKTHK2JHVUZI3HDBMAF64GPJFPN4AV4Y7CQDE27SSFQKZPVAFQ==== -S mix loadpaths --no-compile
+
+Environment: 
+
+LSP=nextls
+NEXTLS_PARENT_PID=g1h3I25leHQtbHMtMTc3NDI1OTExMTIyNDcwNDg5MkB6ZW5ib29rAAAA3wAAAABpwQuo
+MIX_ENV=dev
+MIX_TARGET=host
+MIX_BUILD_ROOT=.elixir-tools/_build
+ROOTDIR=false
+BINDIR=false
+RELEASE_ROOT=false
+RELEASE_SYS_CONFIG=false
+PATH=/usr/bin:/home/grechman/.local/share/.burrito/next_ls_erts-15.2_0.23.4/bin:/home/grechman/.local/share/nvim/mason/bin:/home/grechman/.npm-global/bin:/home/grechman/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/grechman/go/bin
+
+
+12:45:13.793 [debug] handled notification client -> server initialized in 2447ms
+
+12:45:14.013 id=2 [debug] handled request client -> server shutdown in 1ms
+
+12:45:14.013 id=3 [debug] handled request client -> server shutdown in 193µs
+
+12:45:14.017 [debug] sent notification server -> client window/logMessage
+
+12:45:14.017 [info] The runtime for /home/grechman/grechman/advent-of-code/fifth has successfully shut down.
+
+12:49:35.227 id=1858 [debug] sent request server -> client window/workDoneProgress/create
+
+12:49:35.228 [debug] handled notification client -> server textDocument/didSave in 906µs
+
+12:49:35.229 id=2 [debug] handled request client -> server shutdown in 1ms
+
+12:49:35.230 id=3 [debug] handled request client -> server shutdown in 215µs
+
+12:49:35.230 [debug] sent notification server -> client $/progress
+
+12:49:35.231 [debug] sent notification server -> client window/logMessage
+
+12:49:35.231 [info] The runtime for /home/grechman/grechman/advent-of-code/fifth has successfully shut down.
+
+12:49:37.679 [info] Loading 145 CA(s) from :otp store
+
+12:49:37.773 id=1 [debug] handled request client -> server initialize in 50ms
+
+12:49:48.670 [debug] handled notification client -> server textDocument/didOpen in 5ms
+
+12:49:48.670 [debug] sent notification server -> client window/logMessage
+
+12:49:48.671 [debug] NextLS v0.23.4 has initialized!
+
+12:49:48.671 [debug] sent notification server -> client window/logMessage
+
+12:49:48.672 [debug] Log file located at /home/grechman/grechman/advent-of-code/fifth/lib/.elixir-tools/next-ls.log
+
+12:49:48.674 [debug] sent notification server -> client window/logMessage
+
+12:49:48.674 [info] [extension] Credo initializing with options %NextLS.InitOpts.Extensions.Credo{enable: true, cli_options: []}
+
+12:49:51.730 [debug] sent notification server -> client window/logMessage
+
+12:49:51.730 [debug] Booting runtimes...
+
+12:49:51.733 id=34 [debug] sent request server -> client window/workDoneProgress/create
+
+12:49:51.738 [debug] sent notification server -> client $/progress
+
+12:49:51.746 [debug] sent notification server -> client window/logMessage
+
+12:49:51.746 [info] Beginning DB migration...
+
+12:49:51.749 [debug] sent notification server -> client window/logMessage
+
+12:49:51.749 [info] Database is on the latest version: 7
+
+12:49:51.749 [debug] sent notification server -> client window/logMessage
+
+12:49:51.749 [info] Finished DB migration...
+
+12:49:51.749 [debug] sent notification server -> client window/logMessage
+
+12:49:51.749 [info] Booting runtime for /home/grechman/grechman/advent-of-code/fifth.
+
+- elixir: /usr/bin/elixir
+- zombie wrapper script: /home/grechman/.local/share/.burrito/next_ls_erts-15.2_0.23.4/lib/next_ls-0.23.4/priv/cmd
+- working_dir: /home/grechman/grechman/advent-of-code/fifth
+- command: /usr/bin/elixir --no-halt --sname nextls-runtime-1774259391749236349 --cookie HHYKTHK2JHVUZI3HDBMAF64GPJFPN4AV4Y7CQDE27SSFQKZPVAFQ==== -S mix loadpaths --no-compile
+
+Environment: 
+
+LSP=nextls
+NEXTLS_PARENT_PID=g1h3I25leHQtbHMtMTc3NDI1OTM3NzY4Njg0NjUwNUB6ZW5ib29rAAAA3wAAAABpwQyy
+MIX_ENV=dev
+MIX_TARGET=host
+MIX_BUILD_ROOT=.elixir-tools/_build
+ROOTDIR=false
+BINDIR=false
+RELEASE_ROOT=false
+RELEASE_SYS_CONFIG=false
+PATH=/usr/bin:/home/grechman/.local/share/.burrito/next_ls_erts-15.2_0.23.4/bin:/home/grechman/.local/share/nvim/mason/bin:/home/grechman/.npm-global/bin:/home/grechman/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/grechman/go/bin
+
+
+12:49:51.749 [debug] handled notification client -> server initialized in 3084ms
+
+12:49:52.780 [debug] sent notification server -> client window/logMessage
+
+12:49:52.780 [info] Connected to node nextls-runtime-1774259391749236349@zenbook
+
+12:49:53.115 [debug] sent notification server -> client $/progress
+
+12:49:53.116 [debug] sent notification server -> client window/logMessage
+
+12:49:53.116 [debug] Runtime for folder /home/grechman/grechman/advent-of-code/fifth is ready...
+
+12:49:53.118 id=162 [debug] sent request server -> client window/workDoneProgress/create
+
+12:49:53.119 [debug] sent notification server -> client $/progress
+
+12:49:53.157 [debug] sent notification server -> client window/logMessage
+
+12:49:53.157 [info]     warning: variable "index_file" is unused (if the variable is not meant to be used, prefix it with an underscore)
+    │
+  1 │ [ranges_file, index_file] = File.read!("lib/fifth.txt")
+    │               ~~~~~~~~~~
+    │
+    └─ lib/fifth.ex:1:15
+
+
+
+12:49:53.157 [debug] sent notification server -> client window/logMessage
+
+12:49:53.157 [info]     warning: variable "ranges_file" is unused (if the variable is not meant to be used, prefix it with an underscore)
+    │
+  1 │ [ranges_file, index_file] = File.read!("lib/fifth.txt")
+    │  ~~~~~~~~~~~
+    │
+    └─ lib/fifth.ex:1:2
+
+
+
+12:49:53.160 [debug] sent notification server -> client $/progress
+
+12:49:53.160 [debug] sent notification server -> client window/logMessage
+
+12:49:53.160 [info] Compiled /home/grechman/grechman/advent-of-code/fifth!
+
+12:49:53.161 [debug] sent notification server -> client textDocument/publishDiagnostics
+
+12:51:02.277 [debug] handled notification client -> server textDocument/didChange in 13ms
+
+12:51:02.634 [debug] handled notification client -> server textDocument/didChange in 215µs
+
+12:51:03.518 [debug] handled notification client -> server textDocument/didChange in 286µs
+
+12:51:03.914 [debug] handled notification client -> server textDocument/didChange in 300µs
+
+12:51:04.591 [debug] handled notification client -> server textDocument/didChange in 258µs
+
+12:51:04.793 [debug] handled notification client -> server textDocument/didChange in 296µs
+
+12:51:05.089 [debug] handled notification client -> server textDocument/didChange in 219µs
+
+12:51:05.239 [debug] handled notification client -> server textDocument/didChange in 260µs
+
+12:51:06.418 [debug] handled notification client -> server textDocument/didChange in 234µs
+
+12:51:08.119 [debug] handled notification client -> server textDocument/didChange in 261µs
+
+12:51:08.266 [debug] handled notification client -> server textDocument/didChange in 234µs
+
+12:51:13.321 [debug] handled notification client -> server textDocument/didChange in 217µs
+
+12:51:13.548 [debug] handled notification client -> server textDocument/didChange in 242µs
+
+12:51:13.747 [debug] handled notification client -> server textDocument/didChange in 275µs
+
+12:51:13.938 [debug] handled notification client -> server textDocument/didChange in 267µs
+
+12:51:14.166 [debug] handled notification client -> server textDocument/didChange in 272µs
+
+12:51:14.349 [debug] handled notification client -> server textDocument/didChange in 252µs
+
+12:51:14.895 [debug] handled notification client -> server textDocument/didChange in 253µs
+
+12:51:15.239 [debug] handled notification client -> server textDocument/didChange in 238µs
+
+12:51:15.403 [debug] handled notification client -> server textDocument/didChange in 227µs
+
+12:51:15.581 [debug] handled notification client -> server textDocument/didChange in 288µs
+
+12:51:15.949 [debug] handled notification client -> server textDocument/didChange in 218µs
+
+12:51:22.241 id=2 [debug] handled request client -> server shutdown in 1ms
+
+12:51:22.241 id=3 [debug] handled request client -> server shutdown in 320µs
+
+12:51:22.244 id=99 [debug] sent request server -> client window/workDoneProgress/create
+
+12:51:22.244 [debug] handled notification client -> server textDocument/didSave in 6ms
+
+12:51:22.244 [error] Writer crashed (:epipe)
+
+12:51:22.244 [error] GenServer #PID<0.65.0> terminating
+** (stop) :terminated
+Last message: {:EXIT, #PID<0.70.0>, :terminated}
+State: {:state, :user_sup, :undefined, #PID<0.70.0>, {#PID<0.65.0>, :user_sup}}
+
+12:51:22.260 [debug] sent notification server -> client window/logMessage
+
+12:51:22.260 [info]     warning: variable "index_file" is unused (if the variable is not meant to be used, prefix it with an underscore)
+    │
+  1 │ [ranges_file, index_file] = File.read!("lib/fifth.txt")
+    │               ~~~~~~~~~~
+    │
+    └─ lib/fifth.ex:1:15
+
+
+
+12:51:22.261 [debug] sent notification server -> client window/logMessage
+
+12:51:22.261 [info]     warning: variable "ranges_file" is unused (if the variable is not meant to be used, prefix it with an underscore)
+    │
+  1 │ [ranges_file, index_file] = File.read!("lib/fifth.txt")
+    │  ~~~~~~~~~~~
+    │
+    └─ lib/fifth.ex:1:2
+
+
+
+12:51:22.266 [debug] sent notification server -> client $/progress
+
+12:51:22.267 [debug] sent notification server -> client window/logMessage
+
+12:51:22.267 [info] Compiled /home/grechman/grechman/advent-of-code/fifth!
+
+12:51:22.269 [debug] sent notification server -> client textDocument/publishDiagnostics
+
+12:51:22.269 [debug] sent notification server -> client textDocument/publishDiagnostics
+
+12:51:29.642 [info] Loading 145 CA(s) from :otp store
+
+12:51:29.801 id=1 [debug] handled request client -> server initialize in 94ms
+
+12:51:29.808 [debug] sent notification server -> client window/logMessage
+
+12:51:29.808 [debug] handled notification client -> server textDocument/didOpen in 4ms
+
+12:51:29.810 [debug] NextLS v0.23.4 has initialized!
+
+12:51:29.810 [debug] sent notification server -> client window/logMessage
+
+12:51:29.810 [debug] Log file located at /home/grechman/grechman/advent-of-code/fifth/lib/.elixir-tools/next-ls.log
+
+12:51:29.813 [debug] sent notification server -> client window/logMessage
+
+12:51:29.813 [info] [extension] Credo initializing with options %NextLS.InitOpts.Extensions.Credo{enable: true, cli_options: []}
+
+12:51:33.540 [debug] sent notification server -> client window/logMessage
+
+12:51:33.540 [debug] Booting runtimes...
+
+12:51:33.542 id=1634 [debug] sent request server -> client window/workDoneProgress/create
+
+12:51:33.548 [debug] sent notification server -> client $/progress
+
+12:51:33.557 [debug] sent notification server -> client window/logMessage
+
+12:51:33.557 [info] Beginning DB migration...
+
+12:51:33.560 [debug] sent notification server -> client window/logMessage
+
+12:51:33.560 [info] Database is on the latest version: 7
+
+12:51:33.560 [debug] sent notification server -> client window/logMessage
+
+12:51:33.561 [info] Finished DB migration...
+
+12:51:33.561 [debug] sent notification server -> client window/logMessage
+
+12:51:33.561 [info] Booting runtime for /home/grechman/grechman/advent-of-code/fifth.
+
+- elixir: /usr/bin/elixir
+- zombie wrapper script: /home/grechman/.local/share/.burrito/next_ls_erts-15.2_0.23.4/lib/next_ls-0.23.4/priv/cmd
+- working_dir: /home/grechman/grechman/advent-of-code/fifth
+- command: /usr/bin/elixir --no-halt --sname nextls-runtime-1774259493560860863 --cookie HHYKTHK2JHVUZI3HDBMAF64GPJFPN4AV4Y7CQDE27SSFQKZPVAFQ==== -S mix loadpaths --no-compile
+
+Environment: 
+
+LSP=nextls
+NEXTLS_PARENT_PID=g1h3I25leHQtbHMtMTc3NDI1OTQ4OTY1MjU0MTI0MEB6ZW5ib29rAAAA3wAAAABpwQ0i
+MIX_ENV=dev
+MIX_TARGET=host
+MIX_BUILD_ROOT=.elixir-tools/_build
+ROOTDIR=false
+BINDIR=false
+RELEASE_ROOT=false
+RELEASE_SYS_CONFIG=false
+PATH=/usr/bin:/home/grechman/.local/share/.burrito/next_ls_erts-15.2_0.23.4/bin:/home/grechman/.local/share/nvim/mason/bin:/home/grechman/.npm-global/bin:/home/grechman/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/grechman/go/bin
+
+
+12:51:33.561 [debug] handled notification client -> server initialized in 3757ms
+
+12:51:34.591 [debug] sent notification server -> client window/logMessage
+
+12:51:34.592 [info] Connected to node nextls-runtime-1774259493560860863@zenbook
+
+12:51:34.930 [debug] sent notification server -> client $/progress
+
+12:51:34.941 [debug] sent notification server -> client window/logMessage
+
+12:51:34.941 [debug] Runtime for folder /home/grechman/grechman/advent-of-code/fifth is ready...
+
+12:51:34.943 id=1858 [debug] sent request server -> client window/workDoneProgress/create
+
+12:51:34.944 [debug] sent notification server -> client $/progress
+
+12:51:34.978 [debug] sent notification server -> client window/logMessage
+
+12:51:34.978 [info]     warning: variable "index_file" is unused (if the variable is not meant to be used, prefix it with an underscore)
+    │
+  1 │ [ranges_file, index_file] = File.read!("lib/fifth.txt")
+    │               ~~~~~~~~~~
+    │
+    └─ lib/fifth.ex:1:15
+
+
+
+12:51:34.978 [debug] sent notification server -> client window/logMessage
+
+12:51:34.978 [info]     warning: variable "ranges_file" is unused (if the variable is not meant to be used, prefix it with an underscore)
+    │
+  1 │ [ranges_file, index_file] = File.read!("lib/fifth.txt")
+    │  ~~~~~~~~~~~
+    │
+    └─ lib/fifth.ex:1:2
+
+
+
+12:51:34.981 [debug] sent notification server -> client $/progress
+
+12:51:34.981 [debug] sent notification server -> client window/logMessage
+
+12:51:34.981 [info] Compiled /home/grechman/grechman/advent-of-code/fifth!
+
+12:51:34.983 [debug] sent notification server -> client textDocument/publishDiagnostics
+
+12:52:02.770 [info] Loading 145 CA(s) from :otp store
+
+12:52:02.920 id=1 [debug] handled request client -> server initialize in 76ms
+
+12:52:02.924 [debug] sent notification server -> client window/logMessage
+
+12:52:02.924 [debug] handled notification client -> server textDocument/didOpen in 3ms
+
+12:52:02.928 [debug] NextLS v0.23.4 has initialized!
+
+12:52:02.928 [debug] sent notification server -> client window/logMessage
+
+12:52:02.928 [debug] Log file located at /home/grechman/grechman/advent-of-code/fifth/lib/.elixir-tools/next-ls.log
+
+12:52:02.929 [debug] sent notification server -> client window/logMessage
+
+12:52:02.929 [info] [extension] Credo initializing with options %NextLS.InitOpts.Extensions.Credo{enable: true, cli_options: []}
+
+12:52:05.473 [debug] sent notification server -> client window/logMessage
+
+12:52:05.473 [debug] Booting runtimes...
+
+12:52:05.476 id=35 [debug] sent request server -> client window/workDoneProgress/create
+
+12:52:05.480 [debug] sent notification server -> client $/progress
+
+12:52:05.489 [debug] sent notification server -> client window/logMessage
+
+12:52:05.489 [info] Beginning DB migration...
+
+12:52:05.493 [debug] sent notification server -> client window/logMessage
+
+12:52:05.493 [info] Database is on the latest version: 7
+
+12:52:05.493 [debug] sent notification server -> client window/logMessage
+
+12:52:05.493 [info] Finished DB migration...
+
+12:52:05.493 [debug] sent notification server -> client window/logMessage
+
+12:52:05.493 [info] Booting runtime for /home/grechman/grechman/advent-of-code/fifth.
+
+- elixir: /usr/bin/elixir
+- zombie wrapper script: /home/grechman/.local/share/.burrito/next_ls_erts-15.2_0.23.4/lib/next_ls-0.23.4/priv/cmd
+- working_dir: /home/grechman/grechman/advent-of-code/fifth
+- command: /usr/bin/elixir --no-halt --sname nextls-runtime-1774259525493039264 --cookie HHYKTHK2JHVUZI3HDBMAF64GPJFPN4AV4Y7CQDE27SSFQKZPVAFQ==== -S mix loadpaths --no-compile
+
+Environment: 
+
+LSP=nextls
+NEXTLS_PARENT_PID=g1h3I25leHQtbHMtMTc3NDI1OTUyMjc4MTUxOTkzN0B6ZW5ib29rAAAA3wAAAABpwQ1D
+MIX_ENV=dev
+MIX_TARGET=host
+MIX_BUILD_ROOT=.elixir-tools/_build
+ROOTDIR=false
+BINDIR=false
+RELEASE_ROOT=false
+RELEASE_SYS_CONFIG=false
+PATH=/usr/bin:/home/grechman/.local/share/.burrito/next_ls_erts-15.2_0.23.4/bin:/home/grechman/.local/share/nvim/mason/bin:/home/grechman/.npm-global/bin:/home/grechman/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/grechman/go/bin
+
+
+12:52:05.493 [debug] handled notification client -> server initialized in 2571ms
+
+12:52:06.525 [debug] sent notification server -> client window/logMessage
+
+12:52:06.525 [info] Connected to node nextls-runtime-1774259525493039264@zenbook
+
+12:52:06.855 [debug] sent notification server -> client $/progress
+
+12:52:06.856 [debug] sent notification server -> client window/logMessage
+
+12:52:06.856 [debug] Runtime for folder /home/grechman/grechman/advent-of-code/fifth is ready...
+
+12:52:06.858 id=163 [debug] sent request server -> client window/workDoneProgress/create
+
+12:52:06.859 [debug] sent notification server -> client $/progress
+
+12:52:06.898 [debug] sent notification server -> client window/logMessage
+
+12:52:06.898 [info]     warning: variable "index_file" is unused (if the variable is not meant to be used, prefix it with an underscore)
+    │
+  1 │ [ranges_file, index_file] = File.read!("lib/fifth.txt")
+    │               ~~~~~~~~~~
+    │
+    └─ lib/fifth.ex:1:15
+
+
+
+12:52:06.898 [debug] sent notification server -> client window/logMessage
+
+12:52:06.898 [info]     warning: variable "ranges_file" is unused (if the variable is not meant to be used, prefix it with an underscore)
+    │
+  1 │ [ranges_file, index_file] = File.read!("lib/fifth.txt")
+    │  ~~~~~~~~~~~
+    │
+    └─ lib/fifth.ex:1:2
+
+
+
+12:52:06.901 [debug] sent notification server -> client $/progress
+
+12:52:06.901 [debug] sent notification server -> client window/logMessage
+
+12:52:06.901 [info] Compiled /home/grechman/grechman/advent-of-code/fifth!
+
+12:52:06.902 [debug] sent notification server -> client textDocument/publishDiagnostics
+
+12:52:06.903 [debug] sent notification server -> client textDocument/publishDiagnostics
+
+12:52:07.989 [debug] handled notification client -> server textDocument/didChange in 4ms
+
+12:52:08.173 [debug] handled notification client -> server textDocument/didChange in 285µs
+
+13:04:05.632 [debug] handled notification client -> server textDocument/didChange in 240µs
+
+13:04:06.273 [debug] handled notification client -> server textDocument/didChange in 305µs
+
+13:04:06.924 [debug] handled notification client -> server textDocument/didChange in 293µs
+
+13:04:07.131 [debug] handled notification client -> server textDocument/didChange in 247µs
+
+13:04:07.281 [debug] handled notification client -> server textDocument/didChange in 254µs
+
+13:04:07.358 [debug] handled notification client -> server textDocument/didChange in 254µs
+
+13:04:08.140 [debug] handled notification client -> server textDocument/didChange in 274µs
+
+13:04:08.269 [debug] handled notification client -> server textDocument/didChange in 251µs
+
+13:04:12.836 [debug] handled notification client -> server textDocument/didChange in 262µs
+
+13:04:12.985 [debug] handled notification client -> server textDocument/didChange in 286µs
+
+13:04:13.775 [debug] handled notification client -> server textDocument/didChange in 256µs
+
+13:04:13.923 [debug] handled notification client -> server textDocument/didChange in 241µs
+
+13:04:14.091 [debug] handled notification client -> server textDocument/didChange in 274µs
+
+13:04:14.241 [debug] handled notification client -> server textDocument/didChange in 287µs
+
+13:04:14.851 [debug] handled notification client -> server textDocument/didChange in 286µs
+
+13:04:16.246 [debug] handled notification client -> server textDocument/didChange in 295µs
+
+13:04:16.394 [debug] handled notification client -> server textDocument/didChange in 283µs
+
+13:04:17.627 [debug] handled notification client -> server textDocument/didChange in 285µs
+
+13:04:18.286 [debug] handled notification client -> server textDocument/didChange in 240µs
+
+13:04:18.756 [debug] handled notification client -> server textDocument/didChange in 265µs
+
+13:04:19.076 [debug] handled notification client -> server textDocument/didChange in 303µs
+
+13:04:19.891 [debug] handled notification client -> server textDocument/didChange in 226µs
+
+13:04:20.064 [debug] handled notification client -> server textDocument/didChange in 299µs
+
+13:04:20.304 [debug] handled notification client -> server textDocument/didChange in 259µs
+
+13:04:20.424 [debug] handled notification client -> server textDocument/didChange in 286µs
+
+13:07:53.927 [debug] handled notification client -> server textDocument/didChange in 296µs
+
+13:07:54.077 [debug] handled notification client -> server textDocument/didChange in 253µs
+
+13:07:54.780 [debug] handled notification client -> server textDocument/didChange in 280µs
+
+13:07:55.649 [debug] handled notification client -> server textDocument/didChange in 336µs
+
+13:07:55.797 [debug] handled notification client -> server textDocument/didChange in 249µs
+
+13:07:56.477 [debug] handled notification client -> server textDocument/didChange in 305µs
+
+13:07:56.734 [debug] handled notification client -> server textDocument/didChange in 300µs
+
+13:07:58.132 [debug] handled notification client -> server textDocument/didChange in 304µs
+
+13:07:58.946 [debug] handled notification client -> server textDocument/didChange in 297µs
+
+13:07:59.600 [debug] handled notification client -> server textDocument/didChange in 215µs
+
+13:07:59.748 [debug] handled notification client -> server textDocument/didChange in 279µs
+
+13:08:01.494 [debug] handled notification client -> server textDocument/didChange in 230µs
+
+13:08:01.647 [debug] handled notification client -> server textDocument/didChange in 273µs
+
+13:08:04.836 [debug] handled notification client -> server textDocument/didChange in 269µs
+
+13:08:04.958 [debug] handled notification client -> server textDocument/didChange in 225µs
+
+13:09:05.155 [debug] handled notification client -> server textDocument/didChange in 303µs
+
+13:09:07.277 [debug] handled notification client -> server textDocument/didChange in 253µs
+
+13:09:07.658 [debug] handled notification client -> server textDocument/didChange in 279µs
+
+13:09:08.001 [debug] handled notification client -> server textDocument/didChange in 307µs
+
+13:09:08.186 [debug] handled notification client -> server textDocument/didChange in 282µs
+
+13:09:08.611 [debug] handled notification client -> server textDocument/didChange in 248µs
+
+13:09:08.760 [debug] handled notification client -> server textDocument/didChange in 300µs
+
+13:09:09.218 [debug] handled notification client -> server textDocument/didChange in 299µs
+
+13:09:10.829 [debug] handled notification client -> server textDocument/didChange in 306µs
+
+13:09:12.045 [debug] handled notification client -> server textDocument/didChange in 259µs
+
+13:09:12.246 [debug] handled notification client -> server textDocument/didChange in 346µs
+
+13:09:12.396 [debug] handled notification client -> server textDocument/didChange in 454µs
+
+13:09:12.722 [debug] handled notification client -> server textDocument/didChange in 209µs
+
+13:09:13.754 [debug] handled notification client -> server textDocument/didChange in 263µs
+
+13:09:13.902 [debug] handled notification client -> server textDocument/didChange in 242µs
+
+13:09:14.565 [debug] handled notification client -> server textDocument/didChange in 302µs
+
+13:09:15.556 [debug] handled notification client -> server textDocument/didChange in 225µs
+
+13:09:15.706 [debug] handled notification client -> server textDocument/didChange in 296µs
+
+13:09:15.855 [debug] handled notification client -> server textDocument/didChange in 232µs
+
+13:09:16.905 [debug] handled notification client -> server textDocument/didChange in 206µs
+
+13:09:17.050 [debug] handled notification client -> server textDocument/didChange in 266µs
+
+13:09:19.985 [debug] handled notification client -> server textDocument/didChange in 286µs
+
+13:10:59.927 [debug] handled notification client -> server textDocument/didChange in 316µs
+
+13:11:00.177 [debug] handled notification client -> server textDocument/didChange in 284µs
+
+13:11:00.330 [debug] handled notification client -> server textDocument/didChange in 316µs
+
+13:15:48.227 [debug] handled notification client -> server textDocument/didChange in 255µs
+
+13:15:48.421 [debug] handled notification client -> server textDocument/didChange in 252µs
+
+13:15:48.696 [debug] handled notification client -> server textDocument/didChange in 214µs
+
+13:15:49.049 [debug] handled notification client -> server textDocument/didChange in 245µs
+
+13:15:49.198 [debug] handled notification client -> server textDocument/didChange in 220µs
+
+13:15:49.619 [debug] handled notification client -> server textDocument/didChange in 310µs
+
+13:15:49.839 [debug] handled notification client -> server textDocument/didChange in 302µs
+
+13:15:50.020 [debug] handled notification client -> server textDocument/didChange in 287µs
+
+13:15:50.424 [debug] handled notification client -> server textDocument/didChange in 240µs
+
+13:15:51.201 [debug] handled notification client -> server textDocument/didChange in 282µs
+
+13:15:51.283 [debug] handled notification client -> server textDocument/didChange in 288µs
+
+13:15:51.804 [debug] handled notification client -> server textDocument/didChange in 219µs
+
+13:15:52.133 [debug] handled notification client -> server textDocument/didChange in 223µs
+
+13:15:52.299 [debug] handled notification client -> server textDocument/didChange in 213µs
+
+13:15:53.075 [debug] handled notification client -> server textDocument/didChange in 223µs
+
+13:15:53.273 [debug] handled notification client -> server textDocument/didChange in 246µs
+
+13:15:56.281 [debug] handled notification client -> server textDocument/didChange in 242µs
+
+13:15:56.281 [debug] handled notification client -> server textDocument/didChange in 185µs
+
+13:15:56.483 [debug] handled notification client -> server textDocument/didChange in 250µs
+
+13:15:56.484 [debug] handled notification client -> server textDocument/didChange in 196µs
+
+13:15:58.022 [debug] handled notification client -> server textDocument/didChange in 238µs
+
+13:15:58.023 [debug] handled notification client -> server textDocument/didChange in 179µs
+
+13:16:17.173 [debug] handled notification client -> server textDocument/didChange in 291µs
+
+13:16:17.323 [debug] handled notification client -> server textDocument/didChange in 293µs
+
+13:16:17.407 [debug] handled notification client -> server textDocument/didChange in 370µs
+
+13:16:21.076 [debug] handled notification client -> server textDocument/didChange in 274µs
+
+13:16:21.077 [debug] handled notification client -> server textDocument/didChange in 207µs
+
+13:16:22.768 [debug] handled notification client -> server textDocument/didChange in 257µs
+
+13:16:22.768 [debug] handled notification client -> server textDocument/didChange in 226µs
+
+13:16:37.792 [debug] handled notification client -> server textDocument/didChange in 301µs
+
+13:16:37.805 [debug] handled notification client -> server textDocument/didChange in 292µs
+
+13:16:39.702 [debug] handled notification client -> server textDocument/didChange in 291µs
+
+13:16:40.453 [debug] handled notification client -> server textDocument/didChange in 224µs
+
+13:16:40.596 [debug] handled notification client -> server textDocument/didChange in 290µs
+
+13:16:41.308 [debug] handled notification client -> server textDocument/didChange in 286µs
+
+13:16:48.537 [debug] handled notification client -> server textDocument/didChange in 243µs
+
+13:16:48.719 [debug] handled notification client -> server textDocument/didChange in 320µs
+
+13:16:48.831 [debug] handled notification client -> server textDocument/didChange in 304µs
+
+13:16:49.799 [debug] handled notification client -> server textDocument/didChange in 320µs
+
+13:16:50.998 [debug] handled notification client -> server textDocument/didChange in 303µs
+
+13:16:51.146 [debug] handled notification client -> server textDocument/didChange in 291µs
+
+13:16:51.650 [debug] handled notification client -> server textDocument/didChange in 306µs
+
+13:16:52.062 [debug] handled notification client -> server textDocument/didChange in 324µs
+
+13:16:53.257 [debug] handled notification client -> server textDocument/didChange in 304µs
+
+13:16:53.405 [debug] handled notification client -> server textDocument/didChange in 290µs
+
+13:16:56.304 [debug] handled notification client -> server textDocument/didChange in 221µs
+
+13:16:56.452 [debug] handled notification client -> server textDocument/didChange in 255µs
+
+13:16:56.513 [debug] handled notification client -> server textDocument/didChange in 300µs
+
+13:16:56.732 [debug] handled notification client -> server textDocument/didChange in 313µs
+
+13:16:56.882 [debug] handled notification client -> server textDocument/didChange in 313µs
+
+13:16:57.527 [debug] handled notification client -> server textDocument/didChange in 237µs
+
+13:16:57.668 [debug] handled notification client -> server textDocument/didChange in 259µs
+
+13:16:58.435 [debug] handled notification client -> server textDocument/didChange in 308µs
+
+13:16:58.583 [debug] handled notification client -> server textDocument/didChange in 310µs
+
+13:16:59.142 [debug] handled notification client -> server textDocument/didChange in 318µs
+
+13:16:59.521 [debug] handled notification client -> server textDocument/didChange in 264µs
+
+13:16:59.901 [debug] handled notification client -> server textDocument/didChange in 241µs
+
+13:17:00.041 [debug] handled notification client -> server textDocument/didChange in 298µs
+
+13:17:01.003 [debug] handled notification client -> server textDocument/didChange in 326µs
+
+13:17:13.104 [debug] handled notification client -> server textDocument/didChange in 294µs
+
+13:17:14.455 [debug] handled notification client -> server textDocument/didChange in 315µs
+
+13:17:14.622 [debug] handled notification client -> server textDocument/didChange in 249µs
+
+13:17:17.463 [debug] handled notification client -> server textDocument/didChange in 299µs
+
+13:17:17.611 [debug] handled notification client -> server textDocument/didChange in 250µs
+
+13:17:18.191 [debug] handled notification client -> server textDocument/didChange in 313µs
+
+13:17:18.695 [debug] handled notification client -> server textDocument/didChange in 242µs
+
+13:17:18.844 [debug] handled notification client -> server textDocument/didChange in 258µs
+
+13:17:23.271 [debug] handled notification client -> server textDocument/didChange in 308µs
+
+13:17:23.418 [debug] handled notification client -> server textDocument/didChange in 292µs
+
+13:17:24.711 [debug] handled notification client -> server textDocument/didChange in 221µs
+
+13:17:24.859 [debug] handled notification client -> server textDocument/didChange in 307µs
+
+13:17:26.561 [debug] handled notification client -> server textDocument/didChange in 307µs
+
+13:17:26.712 [debug] handled notification client -> server textDocument/didChange in 305µs
+
+13:17:27.248 [debug] handled notification client -> server textDocument/didChange in 222µs
+
+13:17:27.688 [debug] handled notification client -> server textDocument/didChange in 250µs
+
+13:17:27.923 [debug] handled notification client -> server textDocument/didChange in 291µs
+
+13:17:28.079 [debug] handled notification client -> server textDocument/didChange in 349µs
+
+13:17:29.132 [debug] handled notification client -> server textDocument/didChange in 311µs
+
+13:17:29.494 [debug] handled notification client -> server textDocument/didChange in 308µs
+
+13:17:30.491 [debug] handled notification client -> server textDocument/didChange in 289µs
+
+13:17:30.639 [debug] handled notification client -> server textDocument/didChange in 317µs
+
+13:17:31.367 [debug] handled notification client -> server textDocument/didChange in 282µs
+
+13:17:32.592 [debug] handled notification client -> server textDocument/didChange in 973µs
+
+13:17:32.737 [debug] handled notification client -> server textDocument/didChange in 255µs
+
+13:17:33.738 [debug] handled notification client -> server textDocument/didChange in 291µs
+
+13:17:33.887 [debug] handled notification client -> server textDocument/didChange in 312µs
+
+13:17:47.317 [notice] SIGTERM received - shutting down
+
+
+13:17:47.349 [debug] sent notification server -> client window/logMessage
+
+13:17:47.352 [info] The runtime for /home/grechman/grechman/advent-of-code/fifth has successfully shut down.
+
+13:17:47.418 [notice] SIGTERM received - shutting down
+
+
+13:17:47.424 [debug] sent notification server -> client window/logMessage
+
+13:17:47.427 [info] 
+13:17:47.329 [notice] SIGTERM received - shutting down
+
+
+
+13:17:47.440 [debug] sent notification server -> client window/logMessage
+
+13:17:47.443 [info] The runtime for /home/grechman/grechman/advent-of-code/fifth has successfully shut down.
+
+13:17:47.316 [notice] SIGTERM received - shutting down
+
+
+13:17:47.922 [debug] sent notification server -> client window/logMessage
+
+13:17:47.923 [info] The runtime for /home/grechman/grechman/advent-of-code/fifth has successfully shut down.
+
+13:18:00.011 [info] Loading 145 CA(s) from :otp store
+
+13:18:00.196 id=1 [debug] handled request client -> server initialize in 110ms
+
+13:18:00.205 [debug] sent notification server -> client window/logMessage
+
+13:18:00.206 [debug] handled notification client -> server textDocument/didOpen in 6ms
+
+13:18:00.210 [debug] NextLS v0.23.4 has initialized!
+
+13:18:00.210 [debug] sent notification server -> client window/logMessage
+
+13:18:00.210 [debug] Log file located at /home/grechman/grechman/advent-of-code/fifth/lib/.elixir-tools/next-ls.log
+
+13:18:00.212 [debug] sent notification server -> client window/logMessage
+
+13:18:00.213 [info] [extension] Credo initializing with options %NextLS.InitOpts.Extensions.Credo{enable: true, cli_options: []}
+
+13:18:05.453 [debug] sent notification server -> client window/logMessage
+
+13:18:05.454 [debug] Booting runtimes...
+
+13:18:05.456 id=66 [debug] sent request server -> client window/workDoneProgress/create
+
+13:18:05.463 [debug] sent notification server -> client $/progress
+
+13:18:05.471 [debug] sent notification server -> client window/logMessage
+
+13:18:05.471 [info] Beginning DB migration...
+
+13:18:05.476 [debug] sent notification server -> client window/logMessage
+
+13:18:05.476 [info] Database is on the latest version: 7
+
+13:18:05.476 [debug] sent notification server -> client window/logMessage
+
+13:18:05.476 [info] Finished DB migration...
+
+13:18:05.477 [debug] sent notification server -> client window/logMessage
+
+13:18:05.477 [info] Booting runtime for /home/grechman/grechman/advent-of-code/fifth.
+
+- elixir: /usr/bin/elixir
+- zombie wrapper script: /home/grechman/.local/share/.burrito/next_ls_erts-15.2_0.23.4/lib/next_ls-0.23.4/priv/cmd
+- working_dir: /home/grechman/grechman/advent-of-code/fifth
+- command: /usr/bin/elixir --no-halt --sname nextls-runtime-1774261085476855272 --cookie HHYKTHK2JHVUZI3HDBMAF64GPJFPN4AV4Y7CQDE27SSFQKZPVAFQ==== -S mix loadpaths --no-compile
+
+Environment: 
+
+LSP=nextls
+NEXTLS_PARENT_PID=g1h3I25leHQtbHMtMTc3NDI2MTA4MDAzMTc3MzM5OEB6ZW5ib29rAAAA3wAAAABpwRNZ
+MIX_ENV=dev
+MIX_TARGET=host
+MIX_BUILD_ROOT=.elixir-tools/_build
+ROOTDIR=false
+BINDIR=false
+RELEASE_ROOT=false
+RELEASE_SYS_CONFIG=false
+PATH=/usr/bin:/home/grechman/.local/share/.burrito/next_ls_erts-15.2_0.23.4/bin:/home/grechman/.local/share/nvim/mason/bin:/home/grechman/.npm-global/bin:/home/grechman/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/grechman/go/bin
+
+
+13:18:05.477 [debug] handled notification client -> server initialized in 5278ms
+
+13:18:06.505 [debug] sent notification server -> client window/logMessage
+
+13:18:06.505 [info] Connected to node nextls-runtime-1774261085476855272@zenbook
+
+13:18:06.868 [debug] sent notification server -> client $/progress
+
+13:18:06.869 [debug] sent notification server -> client window/logMessage
+
+13:18:06.869 [debug] Runtime for folder /home/grechman/grechman/advent-of-code/fifth is ready...
+
+13:18:06.871 id=226 [debug] sent request server -> client window/workDoneProgress/create
+
+13:18:06.872 [debug] sent notification server -> client $/progress
+
+13:18:06.909 [debug] sent notification server -> client window/logMessage
+
+13:18:06.909 [info]     warning: variable "index_file" is unused (if the variable is not meant to be used, prefix it with an underscore)
+    │
+  1 │ [ranges_file, index_file] = File.read!("lib/fifth.txt")
+    │               ~~~~~~~~~~
+    │
+    └─ lib/fifth.ex:1:15
+
+
+
+13:18:06.909 [debug] sent notification server -> client window/logMessage
+
+13:18:06.909 [info]     warning: variable "ranges_file" is unused (if the variable is not meant to be used, prefix it with an underscore)
+    │
+  1 │ [ranges_file, index_file] = File.read!("lib/fifth.txt")
+    │  ~~~~~~~~~~~
+    │
+    └─ lib/fifth.ex:1:2
+
+
+
+13:18:06.912 [debug] sent notification server -> client $/progress
+
+13:18:06.912 [debug] sent notification server -> client window/logMessage
+
+13:18:06.913 [info] Compiled /home/grechman/grechman/advent-of-code/fifth!
+
+13:18:06.914 [debug] sent notification server -> client textDocument/publishDiagnostics
+
+13:18:06.914 [debug] sent notification server -> client textDocument/publishDiagnostics
+
+13:18:19.141 [debug] handled notification client -> server textDocument/didChange in 13ms
+
+13:18:19.277 [debug] handled notification client -> server textDocument/didChange in 274µs
+
+13:18:20.547 [debug] handled notification client -> server textDocument/didChange in 489µs
+
+13:18:26.435 [debug] handled notification client -> server textDocument/didChange in 315µs
+
+13:18:26.586 [debug] handled notification client -> server textDocument/didChange in 290µs
+
+13:18:26.734 [debug] handled notification client -> server textDocument/didChange in 304µs
+
+13:18:27.703 [debug] handled notification client -> server textDocument/didChange in 294µs
+
+13:18:27.852 [debug] handled notification client -> server textDocument/didChange in 275µs
+
+13:18:28.001 [debug] handled notification client -> server textDocument/didChange in 285µs
+
+13:18:28.151 [debug] handled notification client -> server textDocument/didChange in 247µs
+
+13:18:29.616 [debug] handled notification client -> server textDocument/didChange in 323µs
+
+13:18:29.761 [debug] handled notification client -> server textDocument/didChange in 299µs
+
+13:18:36.776 [debug] handled notification client -> server textDocument/didChange in 8ms
+
+13:19:02.198 [info] Loading 145 CA(s) from :otp store
+
+13:19:02.378 id=1 [debug] handled request client -> server initialize in 101ms
+
+13:19:02.384 [debug] sent notification server -> client window/logMessage
+
+13:19:02.384 [debug] handled notification client -> server textDocument/didOpen in 3ms
+
+13:19:02.386 [debug] NextLS v0.23.4 has initialized!
+
+13:19:02.386 [debug] sent notification server -> client window/logMessage
+
+13:19:02.386 [debug] Log file located at /home/grechman/grechman/advent-of-code/fifth/lib/.elixir-tools/next-ls.log
+
+13:19:02.387 [debug] sent notification server -> client window/logMessage
+
+13:19:02.387 [info] [extension] Credo initializing with options %NextLS.InitOpts.Extensions.Credo{enable: true, cli_options: []}
+
+13:19:05.131 [debug] sent notification server -> client window/logMessage
+
+13:19:05.131 [debug] Booting runtimes...
+
+13:19:05.134 id=1635 [debug] sent request server -> client window/workDoneProgress/create
+
+13:19:05.139 [debug] sent notification server -> client $/progress
+
+13:19:05.153 [debug] sent notification server -> client window/logMessage
+
+13:19:05.153 [info] Beginning DB migration...
+
+13:19:05.157 [debug] sent notification server -> client window/logMessage
+
+13:19:05.157 [info] Database is on the latest version: 7
+
+13:19:05.157 [debug] sent notification server -> client window/logMessage
+
+13:19:05.157 [info] Finished DB migration...
+
+13:19:05.157 [debug] sent notification server -> client window/logMessage
+
+13:19:05.157 [info] Booting runtime for /home/grechman/grechman/advent-of-code/fifth.
+
+- elixir: /usr/bin/elixir
+- zombie wrapper script: /home/grechman/.local/share/.burrito/next_ls_erts-15.2_0.23.4/lib/next_ls-0.23.4/priv/cmd
+- working_dir: /home/grechman/grechman/advent-of-code/fifth
+- command: /usr/bin/elixir --no-halt --sname nextls-runtime-1774261145157336797 --cookie HHYKTHK2JHVUZI3HDBMAF64GPJFPN4AV4Y7CQDE27SSFQKZPVAFQ==== -S mix loadpaths --no-compile
+
+Environment: 
+
+LSP=nextls
+NEXTLS_PARENT_PID=g1h3I25leHQtbHMtMTc3NDI2MTE0MjIxNTUyODgxM0B6ZW5ib29rAAAA3wAAAABpwROX
+MIX_ENV=dev
+MIX_TARGET=host
+MIX_BUILD_ROOT=.elixir-tools/_build
+ROOTDIR=false
+BINDIR=false
+RELEASE_ROOT=false
+RELEASE_SYS_CONFIG=false
+PATH=/usr/bin:/home/grechman/.local/share/.burrito/next_ls_erts-15.2_0.23.4/bin:/home/grechman/.local/share/nvim/mason/bin:/home/grechman/.npm-global/bin:/home/grechman/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/grechman/go/bin
+
+
+13:19:05.157 [debug] handled notification client -> server initialized in 2777ms
+
+13:19:06.186 [debug] sent notification server -> client window/logMessage
+
+13:19:06.186 [info] Connected to node nextls-runtime-1774261145157336797@zenbook
+
+13:19:06.545 [debug] sent notification server -> client $/progress
+
+13:19:06.546 [debug] sent notification server -> client window/logMessage
+
+13:19:06.546 [debug] Runtime for folder /home/grechman/grechman/advent-of-code/fifth is ready...
+
+13:19:06.549 id=4 [debug] sent request server -> client window/workDoneProgress/create
+
+13:19:06.549 [debug] sent notification server -> client $/progress
+
+13:19:06.580 [debug] sent notification server -> client window/logMessage
+
+13:19:06.580 [info]     warning: variable "index_file" is unused (if the variable is not meant to be used, prefix it with an underscore)
+    │
+  1 │ [ranges_file, index_file] = File.read!("lib/fifth.txt")
+    │               ~~~~~~~~~~
+    │
+    └─ lib/fifth.ex:1:15
+
+
+
+13:19:06.581 [debug] sent notification server -> client window/logMessage
+
+13:19:06.581 [info]     warning: variable "ranges_file" is unused (if the variable is not meant to be used, prefix it with an underscore)
+    │
+  1 │ [ranges_file, index_file] = File.read!("lib/fifth.txt")
+    │  ~~~~~~~~~~~
+    │
+    └─ lib/fifth.ex:1:2
+
+
+
+13:19:06.584 [debug] sent notification server -> client $/progress
+
+13:19:06.584 [debug] sent notification server -> client window/logMessage
+
+13:19:06.584 [info] Compiled /home/grechman/grechman/advent-of-code/fifth!
+
+13:19:06.585 [debug] sent notification server -> client textDocument/publishDiagnostics
+
+13:19:06.585 [debug] sent notification server -> client textDocument/publishDiagnostics
+
+13:19:07.857 [debug] handled notification client -> server textDocument/didChange in 13ms
+
+13:19:07.994 [debug] handled notification client -> server textDocument/didChange in 269µs
+
+13:19:09.552 [debug] handled notification client -> server textDocument/didChange in 351µs
+
+13:19:13.454 [debug] handled notification client -> server textDocument/didChange in 256µs
+
+13:19:13.603 [debug] handled notification client -> server textDocument/didChange in 308µs
+
+13:19:13.742 [debug] handled notification client -> server textDocument/didChange in 369µs
+
+13:19:14.310 [debug] handled notification client -> server textDocument/didChange in 808µs
+
+13:19:25.119 [debug] handled notification client -> server textDocument/didChange in 260µs
+
+13:19:25.291 [debug] handled notification client -> server textDocument/didChange in 288µs
+
+13:19:25.662 [debug] handled notification client -> server textDocument/didChange in 312µs
+
+13:19:26.642 [debug] handled notification client -> server textDocument/didChange in 300µs
+
+13:19:36.113 [debug] handled notification client -> server textDocument/didChange in 314µs
+
+13:19:36.263 [debug] handled notification client -> server textDocument/didChange in 237µs
+
+13:19:37.178 [debug] handled notification client -> server textDocument/didChange in 335µs
+
+13:19:37.326 [debug] handled notification client -> server textDocument/didChange in 284µs
+
+13:19:38.616 [debug] handled notification client -> server textDocument/didChange in 264µs
+
+13:19:38.764 [debug] handled notification client -> server textDocument/didChange in 290µs
+
+13:19:39.524 [debug] handled notification client -> server textDocument/didChange in 297µs
+
+13:19:40.849 [debug] handled notification client -> server textDocument/didChange in 311µs
+
+13:19:41.798 [debug] handled notification client -> server textDocument/didChange in 355µs
+
+13:19:41.947 [debug] handled notification client -> server textDocument/didChange in 250µs
+
+13:19:43.276 [debug] handled notification client -> server textDocument/didChange in 272µs
+
+13:19:43.424 [debug] handled notification client -> server textDocument/didChange in 348µs
+
+13:19:43.574 [debug] handled notification client -> server textDocument/didChange in 298µs
+
+13:20:19.725 [debug] handled notification client -> server textDocument/didChange in 318µs
+
+13:20:19.874 [debug] handled notification client -> server textDocument/didChange in 252µs
+
+13:20:19.993 [debug] handled notification client -> server textDocument/didChange in 263µs
+
+13:20:20.829 [debug] handled notification client -> server textDocument/didChange in 230µs
+
+13:20:20.943 [debug] handled notification client -> server textDocument/didChange in 347µs
+
+13:20:22.666 [debug] handled notification client -> server textDocument/didChange in 331µs
+
+13:20:22.814 [debug] handled notification client -> server textDocument/didChange in 250µs
+
+13:20:23.735 [debug] handled notification client -> server textDocument/didChange in 308µs
+
+13:20:23.885 [debug] handled notification client -> server textDocument/didChange in 1ms
+
+13:20:24.613 [debug] handled notification client -> server textDocument/didChange in 279µs
+
+13:20:24.829 [debug] handled notification client -> server textDocument/didChange in 290µs
+
+13:20:25.340 [debug] handled notification client -> server textDocument/didChange in 248µs
+
+13:20:25.857 [debug] handled notification client -> server textDocument/didChange in 214µs
+
+13:20:26.230 [debug] handled notification client -> server textDocument/didChange in 223µs
+
+13:20:26.862 [debug] handled notification client -> server textDocument/didChange in 309µs
+
+13:20:27.018 [debug] handled notification client -> server textDocument/didChange in 254µs
+
+13:20:27.398 [debug] handled notification client -> server textDocument/didChange in 243µs
+
+13:20:31.935 [debug] handled notification client -> server textDocument/didChange in 297µs
+
+13:20:33.768 [debug] handled notification client -> server textDocument/didChange in 256µs
+
+13:20:33.918 [debug] handled notification client -> server textDocument/didChange in 254µs
+
+13:20:34.649 [debug] handled notification client -> server textDocument/didChange in 222µs
+
+13:20:35.685 [debug] handled notification client -> server textDocument/didChange in 294µs
+
+13:20:35.835 [debug] handled notification client -> server textDocument/didChange in 258µs
+
+13:20:37.542 [debug] handled notification client -> server textDocument/didChange in 291µs
+
+13:20:37.661 [debug] handled notification client -> server textDocument/didChange in 314µs
+
+13:20:39.564 [debug] handled notification client -> server textDocument/didChange in 301µs
+
+13:20:40.025 [debug] handled notification client -> server textDocument/didChange in 319µs
+
+13:20:51.266 [debug] handled notification client -> server textDocument/didChange in 294µs
+
+13:20:51.502 [debug] handled notification client -> server textDocument/didChange in 232µs
+
+13:20:51.791 [debug] handled notification client -> server textDocument/didChange in 332µs
+
+13:20:52.579 [debug] handled notification client -> server textDocument/didChange in 314µs
+
+13:21:14.153 [debug] handled notification client -> server textDocument/didChange in 298µs
+
+13:21:14.302 [debug] handled notification client -> server textDocument/didChange in 249µs
+
+13:21:14.491 [debug] handled notification client -> server textDocument/didChange in 278µs
+
+13:21:14.704 [debug] handled notification client -> server textDocument/didChange in 355µs
+
+13:21:16.646 [debug] handled notification client -> server textDocument/didChange in 294µs
+
+13:21:17.543 [debug] handled notification client -> server textDocument/didChange in 269µs
+
+13:21:17.693 [debug] handled notification client -> server textDocument/didChange in 243µs
+
+13:21:18.762 [debug] handled notification client -> server textDocument/didChange in 287µs
+
+13:21:18.910 [debug] handled notification client -> server textDocument/didChange in 289µs
+
+13:21:43.635 [debug] handled notification client -> server textDocument/didChange in 279µs
+
+13:21:47.299 [debug] handled notification client -> server textDocument/didChange in 291µs
+
+13:21:47.750 [debug] handled notification client -> server textDocument/didChange in 246µs
+
+13:21:47.896 [debug] handled notification client -> server textDocument/didChange in 279µs
+
+13:21:48.898 [debug] handled notification client -> server textDocument/didChange in 239µs
+
+13:21:49.425 [debug] handled notification client -> server textDocument/didChange in 323µs
+
+13:21:50.421 [debug] handled notification client -> server textDocument/didChange in 395µs
+
+13:21:50.570 [debug] handled notification client -> server textDocument/didChange in 286µs
+
+13:21:51.279 [debug] handled notification client -> server textDocument/didChange in 307µs
+
+13:21:52.277 [debug] handled notification client -> server textDocument/didChange in 238µs
+
+13:21:52.426 [debug] handled notification client -> server textDocument/didChange in 280µs
+
+13:21:53.252 [debug] handled notification client -> server textDocument/didChange in 318µs
+
+13:21:53.400 [debug] handled notification client -> server textDocument/didChange in 291µs
+
+13:21:55.213 [debug] handled notification client -> server textDocument/didChange in 256µs
+
+13:22:07.911 [debug] handled notification client -> server textDocument/didChange in 320µs
+
+13:22:08.087 [debug] handled notification client -> server textDocument/didChange in 306µs
+
+13:22:18.582 [debug] handled notification client -> server textDocument/didChange in 296µs
+
+13:22:18.731 [debug] handled notification client -> server textDocument/didChange in 271µs
+
+13:22:21.910 [debug] handled notification client -> server textDocument/didChange in 361µs
+
+13:22:22.064 [debug] handled notification client -> server textDocument/didChange in 336µs
+
+13:22:28.629 [debug] handled notification client -> server textDocument/didChange in 258µs
+
+13:22:28.780 [debug] handled notification client -> server textDocument/didChange in 299µs
+
+13:22:28.929 [debug] handled notification client -> server textDocument/didChange in 313µs
+
+13:22:29.402 [debug] handled notification client -> server textDocument/didChange in 318µs
+
+13:22:29.986 [debug] handled notification client -> server textDocument/didChange in 221µs
+
+13:22:30.756 [debug] handled notification client -> server textDocument/didChange in 248µs
+
+13:22:32.194 [debug] handled notification client -> server textDocument/didChange in 308µs
+
+13:22:32.674 [debug] handled notification client -> server textDocument/didChange in 303µs
+
+13:22:32.846 [debug] handled notification client -> server textDocument/didChange in 289µs
+
+13:22:33.205 [debug] handled notification client -> server textDocument/didChange in 305µs
+
+13:22:33.561 [debug] handled notification client -> server textDocument/didChange in 312µs
+
+13:22:33.737 [debug] handled notification client -> server textDocument/didChange in 295µs
+
+13:22:42.469 [debug] handled notification client -> server textDocument/didChange in 282µs
+
+13:22:42.721 [debug] handled notification client -> server textDocument/didChange in 321µs
+
+13:22:42.875 [debug] handled notification client -> server textDocument/didChange in 291µs
+
+13:22:43.102 [debug] handled notification client -> server textDocument/didChange in 215µs
+
+13:22:43.697 [debug] handled notification client -> server textDocument/didChange in 272µs
+
+13:22:45.423 [debug] handled notification client -> server textDocument/didChange in 294µs
+
+13:22:47.391 [debug] handled notification client -> server textDocument/didChange in 251µs
+
+13:22:47.537 [debug] handled notification client -> server textDocument/didChange in 318µs
+
+13:22:52.611 [debug] handled notification client -> server textDocument/didChange in 313µs
+
+13:22:52.732 [debug] handled notification client -> server textDocument/didChange in 301µs
+
+13:22:52.883 [debug] handled notification client -> server textDocument/didChange in 259µs
+
+13:23:28.982 [debug] handled notification client -> server textDocument/didChange in 254µs
+
+13:23:29.131 [debug] handled notification client -> server textDocument/didChange in 305µs
+
+13:23:29.280 [debug] handled notification client -> server textDocument/didChange in 310µs
+
+13:23:29.431 [debug] handled notification client -> server textDocument/didChange in 258µs
+
+13:23:29.615 [debug] handled notification client -> server textDocument/didChange in 241µs
+
+13:23:29.687 [debug] handled notification client -> server textDocument/didChange in 323µs
+
+13:23:30.290 [debug] handled notification client -> server textDocument/didChange in 244µs
+
+13:23:30.401 [debug] handled notification client -> server textDocument/didChange in 349µs
+
+13:23:30.622 [debug] handled notification client -> server textDocument/didChange in 242µs
+
+13:23:30.868 [debug] handled notification client -> server textDocument/didChange in 286µs
+
+13:23:31.243 [debug] handled notification client -> server textDocument/didChange in 266µs
+
+13:23:31.691 [debug] handled notification client -> server textDocument/didChange in 315µs
+
+13:23:31.840 [debug] handled notification client -> server textDocument/didChange in 244µs
+
+13:23:31.858 [debug] handled notification client -> server textDocument/didChange in 318µs
+
+13:23:32.065 [debug] handled notification client -> server textDocument/didChange in 617µs
+
+13:23:32.808 [debug] handled notification client -> server textDocument/didChange in 289µs
+
+13:23:37.059 [debug] handled notification client -> server textDocument/didChange in 274µs
+
+13:23:37.208 [debug] handled notification client -> server textDocument/didChange in 265µs
+
+13:23:37.357 [debug] handled notification client -> server textDocument/didChange in 254µs
+
+13:23:38.067 [debug] handled notification client -> server textDocument/didChange in 336µs
+
+13:23:41.027 [debug] handled notification client -> server textDocument/didChange in 256µs
+
+13:23:41.028 [debug] handled notification client -> server textDocument/didChange in 242µs
+
+13:23:41.998 [debug] handled notification client -> server textDocument/didChange in 248µs
+
+13:23:41.998 [debug] handled notification client -> server textDocument/didChange in 169µs
+
+13:23:43.262 [debug] handled notification client -> server textDocument/didChange in 341µs
+
+13:23:43.263 [debug] handled notification client -> server textDocument/didChange in 271µs
+
+13:23:45.057 [debug] handled notification client -> server textDocument/didChange in 355µs
+
+13:23:45.057 [debug] handled notification client -> server textDocument/didChange in 341µs
+
+13:23:51.690 [debug] handled notification client -> server textDocument/didChange in 294µs
+
+13:23:51.841 [debug] handled notification client -> server textDocument/didChange in 245µs
+
+13:23:52.679 [debug] handled notification client -> server textDocument/didChange in 273µs
+
+13:23:52.837 [debug] handled notification client -> server textDocument/didChange in 303µs
+
+13:24:20.605 [debug] handled notification client -> server textDocument/didChange in 357µs
+
+13:24:20.755 [debug] handled notification client -> server textDocument/didChange in 285µs
+
+13:24:20.914 [debug] handled notification client -> server textDocument/didChange in 247µs
+
+13:24:21.617 [debug] handled notification client -> server textDocument/didChange in 318µs
+
+13:24:22.051 [debug] handled notification client -> server textDocument/didChange in 342µs
+
+13:24:22.500 [debug] handled notification client -> server textDocument/didChange in 324µs
+
+13:24:22.868 [debug] handled notification client -> server textDocument/didChange in 322µs
+
+13:24:23.373 [debug] handled notification client -> server textDocument/didChange in 347µs
+
+13:24:23.822 [debug] handled notification client -> server textDocument/didChange in 266µs
+
+13:24:24.193 [debug] handled notification client -> server textDocument/didChange in 246µs
+
+13:24:24.445 [debug] handled notification client -> server textDocument/didChange in 251µs
+
+13:24:26.095 [debug] handled notification client -> server textDocument/didChange in 304µs
+
+13:24:26.325 [debug] handled notification client -> server textDocument/didChange in 318µs
+
+13:24:28.809 [debug] handled notification client -> server textDocument/didChange in 325µs
+
+13:24:28.958 [debug] handled notification client -> server textDocument/didChange in 303µs
+
+13:24:29.010 [debug] handled notification client -> server textDocument/didChange in 254µs
+
+13:24:30.778 [debug] handled notification client -> server textDocument/didChange in 421µs
+
+13:24:30.779 [debug] handled notification client -> server textDocument/didChange in 276µs
+
+13:24:36.465 [debug] handled notification client -> server textDocument/didChange in 288µs
+
+13:24:36.607 [debug] handled notification client -> server textDocument/didChange in 323µs
+
+13:24:37.428 [debug] handled notification client -> server textDocument/didChange in 301µs
+
+13:24:37.577 [debug] handled notification client -> server textDocument/didChange in 330µs
+
+13:24:40.200 [debug] handled notification client -> server textDocument/didChange in 246µs
+
+13:24:40.402 [debug] handled notification client -> server textDocument/didChange in 261µs
+
+13:24:40.552 [debug] handled notification client -> server textDocument/didChange in 327µs
+
+13:24:41.658 [debug] handled notification client -> server textDocument/didChange in 340µs
+
+13:24:42.373 [debug] handled notification client -> server textDocument/didChange in 230µs
+
+13:24:42.523 [debug] handled notification client -> server textDocument/didChange in 302µs
+
+13:24:42.673 [debug] handled notification client -> server textDocument/didChange in 347µs
+
+13:24:43.251 [debug] handled notification client -> server textDocument/didChange in 250µs
+
+13:24:44.179 [debug] handled notification client -> server textDocument/didChange in 262µs
+
+13:24:44.340 [debug] handled notification client -> server textDocument/didChange in 281µs
+
+13:24:44.514 [debug] handled notification client -> server textDocument/didChange in 321µs
+
+13:24:44.674 [debug] handled notification client -> server textDocument/didChange in 293µs
+
+13:24:44.828 [debug] handled notification client -> server textDocument/didChange in 319µs
+
+13:24:45.216 [debug] handled notification client -> server textDocument/didChange in 368µs
+
+13:24:45.631 [debug] handled notification client -> server textDocument/didChange in 307µs
+
+13:24:45.779 [debug] handled notification client -> server textDocument/didChange in 348µs
+
+13:24:46.014 [debug] handled notification client -> server textDocument/didChange in 370µs
+
+13:24:46.758 [debug] handled notification client -> server textDocument/didChange in 239µs
+
+13:24:46.923 [debug] handled notification client -> server textDocument/didChange in 322µs
+
+13:24:47.095 [debug] handled notification client -> server textDocument/didChange in 324µs
+
+13:24:49.596 [debug] handled notification client -> server textDocument/didChange in 326µs
+
+13:24:49.807 [debug] handled notification client -> server textDocument/didChange in 331µs
+
+13:24:50.177 [debug] handled notification client -> server textDocument/didChange in 321µs
+
+13:24:50.753 [debug] handled notification client -> server textDocument/didChange in 344µs
+
+13:24:52.336 [debug] handled notification client -> server textDocument/didChange in 348µs
+
+13:24:52.486 [debug] handled notification client -> server textDocument/didChange in 257µs
+
+13:24:53.153 [debug] handled notification client -> server textDocument/didChange in 262µs
+
+13:24:53.455 [debug] handled notification client -> server textDocument/didChange in 332µs
+
+13:24:53.642 [debug] handled notification client -> server textDocument/didChange in 267µs
+
+13:24:53.790 [debug] handled notification client -> server textDocument/didChange in 302µs
+
+13:24:54.751 [debug] handled notification client -> server textDocument/didChange in 268µs
+
+13:24:54.753 [debug] handled notification client -> server textDocument/didChange in 248µs
+
+13:24:55.232 [debug] handled notification client -> server textDocument/didChange in 350µs
+
+13:24:55.233 [debug] handled notification client -> server textDocument/didChange in 354µs
+
+13:24:56.215 [debug] handled notification client -> server textDocument/didChange in 281µs
+
+13:24:56.364 [debug] handled notification client -> server textDocument/didChange in 260µs
+
+13:24:59.235 [debug] handled notification client -> server textDocument/didChange in 334µs
+
+13:24:59.383 [debug] handled notification client -> server textDocument/didChange in 247µs
+
+13:24:59.560 [debug] handled notification client -> server textDocument/didChange in 247µs
+
+13:24:59.710 [debug] handled notification client -> server textDocument/didChange in 333µs
+
+13:25:02.397 [debug] handled notification client -> server textDocument/didChange in 338µs
+
+13:25:02.583 [debug] handled notification client -> server textDocument/didChange in 244µs
+
+13:25:02.756 [debug] handled notification client -> server textDocument/didChange in 324µs
+
+13:25:03.760 [debug] handled notification client -> server textDocument/didChange in 360µs
+
+13:25:08.393 [debug] handled notification client -> server textDocument/didChange in 246µs
+
+13:25:11.758 [debug] handled notification client -> server textDocument/didChange in 273µs
+
+13:25:11.924 [debug] handled notification client -> server textDocument/didChange in 335µs
+
+13:25:12.097 [debug] handled notification client -> server textDocument/didChange in 249µs
+
+13:25:12.845 [debug] handled notification client -> server textDocument/didChange in 352µs
+
+13:25:12.995 [debug] handled notification client -> server textDocument/didChange in 286µs
+
+13:25:13.147 [debug] handled notification client -> server textDocument/didChange in 258µs
+
+13:25:13.471 [debug] handled notification client -> server textDocument/didChange in 345µs
+
+13:25:13.620 [debug] handled notification client -> server textDocument/didChange in 292µs
+
+13:25:13.770 [debug] handled notification client -> server textDocument/didChange in 389µs
+
+13:25:13.919 [debug] handled notification client -> server textDocument/didChange in 303µs
+
+13:25:14.070 [debug] handled notification client -> server textDocument/didChange in 290µs
+
+13:25:14.233 [debug] handled notification client -> server textDocument/didChange in 310µs
+
+13:25:14.384 [debug] handled notification client -> server textDocument/didChange in 362µs
+
+13:25:15.000 [debug] handled notification client -> server textDocument/didChange in 426µs
+
+13:25:15.150 [debug] handled notification client -> server textDocument/didChange in 264µs
+
+13:25:15.300 [debug] handled notification client -> server textDocument/didChange in 310µs
+
+13:25:15.450 [debug] handled notification client -> server textDocument/didChange in 306µs
+
+13:25:17.432 [debug] handled notification client -> server textDocument/didChange in 328µs
+
+13:25:17.580 [debug] handled notification client -> server textDocument/didChange in 302µs
+
+13:25:17.870 [debug] handled notification client -> server textDocument/didChange in 437µs
+
+13:25:18.055 [debug] handled notification client -> server textDocument/didChange in 299µs
+
+13:25:18.338 [debug] handled notification client -> server textDocument/didChange in 381µs
+
+13:25:18.525 [debug] handled notification client -> server textDocument/didChange in 373µs
+
+13:25:25.017 [debug] handled notification client -> server textDocument/didChange in 299µs
+
+13:25:25.978 [debug] handled notification client -> server textDocument/didChange in 339µs
+
+13:25:26.875 [debug] handled notification client -> server textDocument/didChange in 347µs
+
+13:25:27.024 [debug] handled notification client -> server textDocument/didChange in 353µs
+
+13:25:27.769 [debug] handled notification client -> server textDocument/didChange in 288µs
+
+13:25:28.727 [debug] handled notification client -> server textDocument/didChange in 502µs
+
+13:25:30.092 [debug] handled notification client -> server textDocument/didChange in 281µs
+
+13:25:30.236 [debug] handled notification client -> server textDocument/didChange in 269µs
+
+13:25:31.671 [debug] handled notification client -> server textDocument/didChange in 312µs
+
+13:25:31.803 [debug] handled notification client -> server textDocument/didChange in 263µs
+
+13:25:31.954 [debug] handled notification client -> server textDocument/didChange in 346µs
+
+13:25:32.103 [debug] handled notification client -> server textDocument/didChange in 531µs
+
+13:25:32.252 [debug] handled notification client -> server textDocument/didChange in 272µs
+
+13:25:38.087 id=2 [debug] sent request server -> client window/workDoneProgress/create
+
+13:25:38.087 [debug] handled notification client -> server textDocument/didSave in 3ms
+
+13:25:38.087 [debug] sent notification server -> client $/progress
+
+13:25:38.092 [debug] sent notification server -> client window/logMessage
+
+13:25:38.092 [info] Compiling 1 file (.ex)
+
+
+13:25:38.116 [debug] sent notification server -> client window/logMessage
+
+13:25:38.116 [info] 
+== Compilation error in file lib/fifth.ex ==
+** (SyntaxError) invalid syntax found on lib/fifth.ex:13:32:
+    error: syntax error before: total
+    │
+ 13 │   if (MapSet.member?(set, val) total++)
+    │                                ^
+    │
+    └─ lib/fifth.ex:13:32
+    (elixir 1.19.5) lib/kernel/parallel_compiler.ex:529: anonymous fn/5 in Kernel.ParallelCompiler.spawn_workers/8
+
+
+13:25:38.119 [debug] sent notification server -> client $/progress
+
+13:25:38.119 [debug] sent notification server -> client window/logMessage
+
+13:25:38.119 [info] Compiled /home/grechman/grechman/advent-of-code/fifth!
+
+13:25:38.121 [debug] sent notification server -> client textDocument/publishDiagnostics
+
+13:25:38.121 [debug] sent notification server -> client textDocument/publishDiagnostics
+
+13:25:55.166 [debug] handled notification client -> server textDocument/didChange in 298µs
+
+13:25:55.342 [debug] handled notification client -> server textDocument/didChange in 407µs
+
+13:25:56.147 [debug] handled notification client -> server textDocument/didChange in 443µs
+
+13:25:56.384 [debug] handled notification client -> server textDocument/didChange in 346µs
+
+13:25:56.557 [debug] handled notification client -> server textDocument/didChange in 343µs
+
+13:25:57.130 [debug] handled notification client -> server textDocument/didChange in 424µs
+
+13:25:57.325 [debug] handled notification client -> server textDocument/didChange in 428µs
+
+13:25:57.467 [debug] handled notification client -> server textDocument/didChange in 378µs
+
+13:25:58.863 [debug] handled notification client -> server textDocument/didChange in 422µs
+
+13:26:11.049 id=34 [debug] sent request server -> client window/workDoneProgress/create
+
+13:26:11.050 [debug] handled notification client -> server textDocument/didSave in 889µs
+
+13:26:11.051 [debug] sent notification server -> client $/progress
+
+13:26:11.055 [debug] sent notification server -> client window/logMessage
+
+13:26:11.056 [info] Compiling 1 file (.ex)
+
+
+13:26:11.056 [debug] sent notification server -> client window/logMessage
+
+13:26:11.056 [info] 
+== Compilation error in file lib/fifth.ex ==
+** (SyntaxError) invalid syntax found on lib/fifth.ex:13:32:
+    error: syntax error before: total
+    │
+ 13 │   if (MapSet.member?(set, val) total += 1)
+    │                                ^
+    │
+    └─ lib/fifth.ex:13:32
+    (elixir 1.19.5) lib/kernel/parallel_compiler.ex:529: anonymous fn/5 in Kernel.ParallelCompiler.spawn_workers/8
+
+
+13:26:11.057 [debug] sent notification server -> client $/progress
+
+13:26:11.058 [debug] sent notification server -> client window/logMessage
+
+13:26:11.058 [info] Compiled /home/grechman/grechman/advent-of-code/fifth!
+
+13:26:11.058 [debug] sent notification server -> client textDocument/publishDiagnostics
+
+13:26:11.058 [debug] sent notification server -> client textDocument/publishDiagnostics
+
+13:26:23.459 [debug] handled notification client -> server textDocument/didChange in 308µs
+
+13:26:25.255 [debug] handled notification client -> server textDocument/didChange in 407µs
+
+13:26:25.404 [debug] handled notification client -> server textDocument/didChange in 453µs
+
+13:26:25.554 [debug] handled notification client -> server textDocument/didChange in 307µs
+
+13:26:25.704 [debug] handled notification client -> server textDocument/didChange in 478µs
+
+13:26:26.305 [debug] handled notification client -> server textDocument/didChange in 332µs
+
+13:26:26.563 [debug] handled notification client -> server textDocument/didChange in 436µs
+
+13:26:27.064 [debug] handled notification client -> server textDocument/didChange in 379µs
+
+13:26:27.362 [debug] handled notification client -> server textDocument/didChange in 327µs
+
+13:26:27.619 [debug] handled notification client -> server textDocument/didChange in 354µs
+
+13:26:27.940 [debug] handled notification client -> server textDocument/didChange in 461µs
+
+13:26:28.050 [debug] handled notification client -> server textDocument/didChange in 293µs
+
+13:26:31.367 id=66 [debug] sent request server -> client window/workDoneProgress/create
+
+13:26:31.367 [debug] handled notification client -> server textDocument/didSave in 773µs
+
+13:26:31.367 [debug] sent notification server -> client $/progress
+
+13:26:31.371 [debug] sent notification server -> client window/logMessage
+
+13:26:31.371 [info] Compiling 1 file (.ex)
+
+
+13:26:31.372 [debug] sent notification server -> client window/logMessage
+
+13:26:31.372 [info] 
+== Compilation error in file lib/fifth.ex ==
+** (SyntaxError) invalid syntax found on lib/fifth.ex:13:32:
+    error: syntax error before: total
+    │
+ 13 │   if (MapSet.member?(set, val) total = total + 1)
+    │                                ^
+    │
+    └─ lib/fifth.ex:13:32
+    (elixir 1.19.5) lib/kernel/parallel_compiler.ex:529: anonymous fn/5 in Kernel.ParallelCompiler.spawn_workers/8
+
+
+13:26:31.373 [debug] sent notification server -> client $/progress
+
+13:26:31.373 [debug] sent notification server -> client window/logMessage
+
+13:26:31.373 [info] Compiled /home/grechman/grechman/advent-of-code/fifth!
+
+13:26:31.374 [debug] sent notification server -> client textDocument/publishDiagnostics
+
+13:26:31.374 [debug] sent notification server -> client textDocument/publishDiagnostics
+
+13:27:18.851 [debug] handled notification client -> server textDocument/didChange in 279µs
+
+13:27:19.068 [debug] handled notification client -> server textDocument/didChange in 364µs
+
+13:27:19.228 [debug] handled notification client -> server textDocument/didChange in 293µs
+
+13:27:20.470 [debug] handled notification client -> server textDocument/didChange in 462µs
+
+13:27:20.620 [debug] handled notification client -> server textDocument/didChange in 302µs
+
+13:28:23.419 [debug] handled notification client -> server textDocument/didChange in 342µs
+
+13:28:28.402 [debug] handled notification client -> server textDocument/didChange in 421µs
+
+13:28:28.548 [debug] handled notification client -> server textDocument/didChange in 321µs
+
+13:28:39.722 [debug] handled notification client -> server textDocument/didChange in 308µs
+
+13:28:48.756 [debug] handled notification client -> server textDocument/didChange in 538µs
+
+13:28:49.563 [debug] handled notification client -> server textDocument/didChange in 478µs
+
+13:28:50.015 [debug] handled notification client -> server textDocument/didChange in 349µs
+
+13:28:51.409 [debug] handled notification client -> server textDocument/didChange in 412µs
+
+13:28:53.338 [debug] handled notification client -> server textDocument/didChange in 337µs
+
+13:28:53.524 [debug] handled notification client -> server textDocument/didChange in 325µs
+
+13:28:54.736 [debug] handled notification client -> server textDocument/didChange in 370µs
+
+13:28:54.885 [debug] handled notification client -> server textDocument/didChange in 321µs
+
+13:28:55.034 [debug] handled notification client -> server textDocument/didChange in 324µs
+
+13:28:55.184 [debug] handled notification client -> server textDocument/didChange in 314µs
+
+13:28:55.334 [debug] handled notification client -> server textDocument/didChange in 301µs
+
+13:28:55.351 [debug] handled notification client -> server textDocument/didChange in 325µs
+
+13:28:56.190 [debug] handled notification client -> server textDocument/didChange in 266µs
+
+13:28:56.451 [debug] handled notification client -> server textDocument/didChange in 403µs
+
+13:29:04.821 [debug] handled notification client -> server textDocument/didChange in 390µs
+
+13:29:04.970 [debug] handled notification client -> server textDocument/didChange in 265µs
+
+13:29:06.938 [debug] handled notification client -> server textDocument/didChange in 270µs
+
+13:29:07.088 [debug] handled notification client -> server textDocument/didChange in 244µs
+
+13:29:09.844 [debug] handled notification client -> server textDocument/didChange in 406µs
+
+13:29:10.863 [debug] handled notification client -> server textDocument/didChange in 784µs
+
+13:29:11.130 [debug] handled notification client -> server textDocument/didChange in 449µs
+
+13:29:11.484 [debug] handled notification client -> server textDocument/didChange in 2ms
+
+13:29:12.163 [debug] handled notification client -> server textDocument/didChange in 430µs
+
+13:29:12.567 [debug] handled notification client -> server textDocument/didChange in 2ms
+
+13:29:13.721 [debug] handled notification client -> server textDocument/didChange in 379µs
+
+13:29:13.866 [debug] handled notification client -> server textDocument/didChange in 385µs
+
+13:29:14.386 [debug] handled notification client -> server textDocument/didChange in 468µs
+
+13:29:14.962 [debug] handled notification client -> server textDocument/didChange in 396µs
+
+13:29:15.097 [debug] handled notification client -> server textDocument/didChange in 347µs
+
+13:29:17.104 [debug] handled notification client -> server textDocument/didChange in 1ms
+
+13:29:17.224 [debug] handled notification client -> server textDocument/didChange in 332µs
+
+13:29:21.019 [notice] SIGTERM received - shutting down
+
+
+13:29:21.043 [debug] sent notification server -> client window/logMessage
+
+13:29:21.043 [info] The runtime for /home/grechman/grechman/advent-of-code/fifth has successfully shut down.
+
+13:31:47.947 [info] Loading 145 CA(s) from :otp store
+
+13:31:48.128 id=1 [debug] handled request client -> server initialize in 105ms
+
+13:31:48.135 [debug] sent notification server -> client window/logMessage
+
+13:31:48.135 [debug] handled notification client -> server textDocument/didOpen in 4ms
+
+13:31:48.137 [debug] NextLS v0.23.4 has initialized!
+
+13:31:48.137 [debug] sent notification server -> client window/logMessage
+
+13:31:48.137 [debug] Log file located at /home/grechman/grechman/advent-of-code/fifth/lib/.elixir-tools/next-ls.log
+
+13:31:48.138 [debug] sent notification server -> client window/logMessage
+
+13:31:48.138 [info] [extension] Credo initializing with options %NextLS.InitOpts.Extensions.Credo{enable: true, cli_options: []}
+
+13:31:50.825 [debug] sent notification server -> client window/logMessage
+
+13:31:50.825 [debug] Booting runtimes...
+
+13:31:50.827 id=1699 [debug] sent request server -> client window/workDoneProgress/create
+
+13:31:50.834 [debug] sent notification server -> client $/progress
+
+13:31:50.843 [debug] sent notification server -> client window/logMessage
+
+13:31:50.843 [info] Beginning DB migration...
+
+13:31:50.847 [debug] sent notification server -> client window/logMessage
+
+13:31:50.847 [info] Database is on the latest version: 7
+
+13:31:50.847 [debug] sent notification server -> client window/logMessage
+
+13:31:50.847 [info] Finished DB migration...
+
+13:31:50.847 [debug] sent notification server -> client window/logMessage
+
+13:31:50.847 [info] Booting runtime for /home/grechman/grechman/advent-of-code/fifth.
+
+- elixir: /usr/bin/elixir
+- zombie wrapper script: /home/grechman/.local/share/.burrito/next_ls_erts-15.2_0.23.4/lib/next_ls-0.23.4/priv/cmd
+- working_dir: /home/grechman/grechman/advent-of-code/fifth
+- command: /usr/bin/elixir --no-halt --sname nextls-runtime-1774261910847525393 --cookie HHYKTHK2JHVUZI3HDBMAF64GPJFPN4AV4Y7CQDE27SSFQKZPVAFQ==== -S mix loadpaths --no-compile
+
+Environment: 
+
+LSP=nextls
+NEXTLS_PARENT_PID=g1h3I25leHQtbHMtMTc3NDI2MTkwNzk2NDc5NzQ5OUB6ZW5ib29rAAAA3wAAAABpwRaU
+MIX_ENV=dev
+MIX_TARGET=host
+MIX_BUILD_ROOT=.elixir-tools/_build
+ROOTDIR=false
+BINDIR=false
+RELEASE_ROOT=false
+RELEASE_SYS_CONFIG=false
+PATH=/usr/bin:/home/grechman/.local/share/.burrito/next_ls_erts-15.2_0.23.4/bin:/home/grechman/.local/share/nvim/mason/bin:/home/grechman/.npm-global/bin:/home/grechman/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/grechman/go/bin
+
+
+13:31:50.848 [debug] handled notification client -> server initialized in 2717ms
+
+13:31:51.878 [debug] sent notification server -> client window/logMessage
+
+13:31:51.878 [info] Connected to node nextls-runtime-1774261910847525393@zenbook
+
+13:31:52.244 [debug] sent notification server -> client $/progress
+
+13:31:52.246 [debug] sent notification server -> client window/logMessage
+
+13:31:52.246 [debug] Runtime for folder /home/grechman/grechman/advent-of-code/fifth is ready...
+
+13:31:52.248 id=1795 [debug] sent request server -> client window/workDoneProgress/create
+
+13:31:52.248 [debug] sent notification server -> client $/progress
+
+13:31:52.278 [debug] sent notification server -> client window/logMessage
+
+13:31:52.278 [info] Compiling 1 file (.ex)
+
+
+13:31:52.305 [debug] sent notification server -> client window/logMessage
+
+13:31:52.306 [info] 
+== Compilation error in file lib/fifth.ex ==
+** (SyntaxError) invalid syntax found on lib/fifth.ex:13:32:
+    error: syntax error before: total
+    │
+ 13 │   if (MapSet.member?(set, val) total = total + 1)
+    │                                ^
+    │
+    └─ lib/fifth.ex:13:32
+    (elixir 1.19.5) lib/kernel/parallel_compiler.ex:529: anonymous fn/5 in Kernel.ParallelCompiler.spawn_workers/8
+
+
+13:31:52.309 [debug] sent notification server -> client $/progress
+
+13:31:52.309 [debug] sent notification server -> client window/logMessage
+
+13:31:52.309 [info] Compiled /home/grechman/grechman/advent-of-code/fifth!
+
+13:31:52.310 [debug] sent notification server -> client textDocument/publishDiagnostics
+
+13:31:52.310 [debug] sent notification server -> client textDocument/publishDiagnostics
+
+13:32:07.289 [debug] handled notification client -> server textDocument/didChange in 13ms
+
+13:32:10.122 [debug] handled notification client -> server textDocument/didChange in 378µs
+
+13:32:14.781 [debug] handled notification client -> server textDocument/didChange in 293µs
+
+13:32:16.892 [debug] handled notification client -> server textDocument/didChange in 426µs
+
+13:32:20.107 id=1827 [debug] sent request server -> client window/workDoneProgress/create
+
+13:32:20.107 [debug] handled notification client -> server textDocument/didSave in 3ms
+
+13:32:20.108 [debug] sent notification server -> client $/progress
+
+13:32:20.111 [debug] sent notification server -> client window/logMessage
+
+13:32:20.111 [info] Compiling 1 file (.ex)
+
+
+13:32:20.112 id=1859 [debug] sent request server -> client window/workDoneProgress/create
+
+13:32:20.114 [debug] sent notification server -> client $/progress
+
+13:32:20.115 [debug] sent notification server -> client window/logMessage
+
+13:32:20.115 [info]     error: undefined variable "ranges_raw"
+    │
+  4 │ set = ranges_raw |> String.split("\n")
+    │       ^^^^^^^^^^
+    │
+    └─ lib/fifth.ex:4:7
+
+
+== Compilation error in file lib/fifth.ex ==
+** (CompileError) lib/fifth.ex: cannot compile file (errors have been logged)
+    (elixir 1.19.5) expanding macro: Kernel.|>/2
+    lib/fifth.ex:4: (file)
+    (elixir 1.19.5) expanding macro: Kernel.|>/2
+    lib/fifth.ex:5: (file)
+
+
+13:32:20.118 [debug] sent notification server -> client $/progress
+
+13:32:20.119 [debug] sent notification server -> client window/logMessage
+
+13:32:20.119 [info] Compiled /home/grechman/grechman/advent-of-code/fifth!
+
+13:32:20.120 [debug] sent notification server -> client textDocument/publishDiagnostics
+
+13:32:20.120 [debug] sent notification server -> client textDocument/publishDiagnostics
+
+13:32:20.223 [debug] sent notification server -> client $/progress
+
+13:32:31.880 [debug] handled notification client -> server textDocument/didChange in 357µs
+
+13:32:32.030 [debug] handled notification client -> server textDocument/didChange in 473µs
+
+13:32:32.179 [debug] handled notification client -> server textDocument/didChange in 385µs
+
+13:32:33.169 [debug] handled notification client -> server textDocument/didChange in 272µs
+
+13:32:33.868 [debug] handled notification client -> server textDocument/didChange in 339µs
+
+13:32:34.274 [debug] handled notification client -> server textDocument/didChange in 391µs
+
+13:32:35.376 [debug] handled notification client -> server textDocument/didChange in 370µs
+
+13:32:35.525 [debug] handled notification client -> server textDocument/didChange in 365µs
+
+13:32:36.521 [debug] handled notification client -> server textDocument/didChange in 354µs
+
+13:32:37.358 [debug] handled notification client -> server textDocument/didChange in 401µs
+
+13:32:39.412 id=1891 [debug] sent request server -> client window/workDoneProgress/create
+
+13:32:39.414 [debug] handled notification client -> server textDocument/didSave in 16ms
+
+13:32:39.418 [debug] sent notification server -> client $/progress
+
+13:32:39.424 [debug] sent notification server -> client window/logMessage
+
+13:32:39.424 [info] Compiling 1 file (.ex)
+
+
+13:32:39.426 [debug] sent notification server -> client window/logMessage
+
+13:32:39.426 [info]     warning: variable "total" is unused (if the variable is not meant to be used, prefix it with an underscore)
+    │
+  3 │ total = 0
+    │ ~~~~~
+    │
+    └─ lib/fifth.ex:3:1
+
+
+
+13:32:39.428 id=98 [debug] sent request server -> client window/workDoneProgress/create
+
+13:32:39.428 [debug] sent notification server -> client window/logMessage
+
+13:32:39.428 [info]     warning: variable "val" is unused (if the variable is not meant to be used, prefix it with an underscore)
+    │
+ 10 │ val = index_file |> String.split("\n") |> Enum.to_list(&String.to_integer/1)
+    │ ~~~
+    │
+    └─ lib/fifth.ex:10:1
+
+
+
+13:32:39.429 [debug] sent notification server -> client $/progress
+
+13:32:39.724 [debug] sent notification server -> client $/progress
+
+13:32:45.174 [debug] sent notification server -> client window/logMessage
+
+13:32:45.176 [notice] SIGTERM received - shutting down
+
+
+13:32:45.176 [info] 
+13:32:44.877 [notice] SIGTERM received - shutting down
+
+
+
+13:32:45.178 [debug] sent notification server -> client window/logMessage
+
+13:32:45.178 [info] The runtime for /home/grechman/grechman/advent-of-code/fifth has successfully shut down.
+
+13:33:32.678 [info] Loading 145 CA(s) from :otp store
+
+13:33:32.886 id=1 [debug] handled request client -> server initialize in 105ms
+
+13:33:32.894 [debug] sent notification server -> client window/logMessage
+
+13:33:32.894 [debug] handled notification client -> server textDocument/didOpen in 5ms
+
+13:33:32.897 [debug] NextLS v0.23.4 has initialized!
+
+13:33:32.897 [debug] sent notification server -> client window/logMessage
+
+13:33:32.897 [debug] Log file located at /home/grechman/grechman/advent-of-code/fifth/lib/.elixir-tools/next-ls.log
+
+13:33:32.899 [debug] sent notification server -> client window/logMessage
+
+13:33:32.899 [info] [extension] Credo initializing with options %NextLS.InitOpts.Extensions.Credo{enable: true, cli_options: []}
+
+13:33:36.124 [debug] sent notification server -> client window/logMessage
+
+13:33:36.124 [debug] Booting runtimes...
+
+13:33:36.127 id=1700 [debug] sent request server -> client window/workDoneProgress/create
+
+13:33:36.135 [debug] sent notification server -> client $/progress
+
+13:33:36.145 [debug] sent notification server -> client window/logMessage
+
+13:33:36.146 [info] Beginning DB migration...
+
+13:33:36.150 [debug] sent notification server -> client window/logMessage
+
+13:33:36.150 [info] Database is on the latest version: 7
+
+13:33:36.150 [debug] sent notification server -> client window/logMessage
+
+13:33:36.150 [info] Finished DB migration...
+
+13:33:36.150 [debug] sent notification server -> client window/logMessage
+
+13:33:36.150 [info] Booting runtime for /home/grechman/grechman/advent-of-code/fifth.
+
+- elixir: /usr/bin/elixir
+- zombie wrapper script: /home/grechman/.local/share/.burrito/next_ls_erts-15.2_0.23.4/lib/next_ls-0.23.4/priv/cmd
+- working_dir: /home/grechman/grechman/advent-of-code/fifth
+- command: /usr/bin/elixir --no-halt --sname nextls-runtime-1774262016150156814 --cookie HHYKTHK2JHVUZI3HDBMAF64GPJFPN4AV4Y7CQDE27SSFQKZPVAFQ==== -S mix loadpaths --no-compile
+
+Environment: 
+
+LSP=nextls
+NEXTLS_PARENT_PID=g1h3I25leHQtbHMtMTc3NDI2MjAxMjY5MTQwNzg2OEB6ZW5ib29rAAAA3wAAAABpwRb9
+MIX_ENV=dev
+MIX_TARGET=host
+MIX_BUILD_ROOT=.elixir-tools/_build
+ROOTDIR=false
+BINDIR=false
+RELEASE_ROOT=false
+RELEASE_SYS_CONFIG=false
+PATH=/usr/bin:/home/grechman/.local/share/.burrito/next_ls_erts-15.2_0.23.4/bin:/home/grechman/.local/share/nvim/mason/bin:/home/grechman/.npm-global/bin:/home/grechman/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/grechman/go/bin
+
+
+13:33:36.152 [debug] handled notification client -> server initialized in 3262ms
+
+13:33:37.198 [debug] sent notification server -> client window/logMessage
+
+13:33:37.198 [info] Connected to node nextls-runtime-1774262016150156814@zenbook
+
+13:33:37.600 [debug] sent notification server -> client $/progress
+
+13:33:37.601 [debug] sent notification server -> client window/logMessage
+
+13:33:37.601 [debug] Runtime for folder /home/grechman/grechman/advent-of-code/fifth is ready...
+
+13:33:37.604 id=162 [debug] sent request server -> client window/workDoneProgress/create
+
+13:33:37.604 [debug] sent notification server -> client $/progress
+
+13:33:37.639 [debug] sent notification server -> client window/logMessage
+
+13:33:37.639 [info] Compiling 1 file (.ex)
+
+
+13:33:37.644 id=1764 [debug] sent request server -> client window/workDoneProgress/create
+
+13:33:37.645 [debug] sent notification server -> client $/progress
+
+13:33:37.657 [debug] sent notification server -> client window/logMessage
+
+13:33:37.657 [info]     warning: variable "total" is unused (if the variable is not meant to be used, prefix it with an underscore)
+    │
+  3 │ total = 0
+    │ ~~~~~
+    │
+    └─ lib/fifth.ex:3:1
+
+
+
+13:33:37.659 [debug] sent notification server -> client window/logMessage
+
+13:33:37.659 [info]     warning: variable "val" is unused (if the variable is not meant to be used, prefix it with an underscore)
+    │
+ 10 │ val = index_file |> String.split("\n") |> Enum.to_list(&String.to_integer/1)
+    │ ~~~
+    │
+    └─ lib/fifth.ex:10:1
+
+
+
+13:33:37.767 [debug] sent notification server -> client $/progress
+
+13:46:43.343 [info] Loading 145 CA(s) from :otp store
+
+13:46:43.515 id=1 [debug] handled request client -> server initialize in 103ms
+
+13:46:43.525 [debug] sent notification server -> client window/logMessage
+
+13:46:43.526 [debug] handled notification client -> server textDocument/didOpen in 7ms
+
+13:46:43.528 [debug] NextLS v0.23.4 has initialized!
+
+13:46:43.528 [debug] sent notification server -> client window/logMessage
+
+13:46:43.528 [debug] Log file located at /home/grechman/grechman/advent-of-code/fifth/lib/.elixir-tools/next-ls.log
+
+13:46:43.530 [debug] sent notification server -> client window/logMessage
+
+13:46:43.530 [info] [extension] Credo initializing with options %NextLS.InitOpts.Extensions.Credo{enable: true, cli_options: []}
+
+13:46:46.433 [debug] sent notification server -> client window/logMessage
+
+13:46:46.433 [debug] Booting runtimes...
+
+13:46:46.435 id=66 [debug] sent request server -> client window/workDoneProgress/create
+
+13:46:46.441 [debug] sent notification server -> client $/progress
+
+13:46:46.451 [debug] sent notification server -> client window/logMessage
+
+13:46:46.451 [info] Beginning DB migration...
+
+13:46:46.454 [debug] sent notification server -> client window/logMessage
+
+13:46:46.454 [info] Database is on the latest version: 7
+
+13:46:46.454 [debug] sent notification server -> client window/logMessage
+
+13:46:46.454 [info] Finished DB migration...
+
+13:46:46.454 [debug] sent notification server -> client window/logMessage
+
+13:46:46.454 [info] Booting runtime for /home/grechman/grechman/advent-of-code/fifth.
+
+- elixir: /usr/bin/elixir
+- zombie wrapper script: /home/grechman/.local/share/.burrito/next_ls_erts-15.2_0.23.4/lib/next_ls-0.23.4/priv/cmd
+- working_dir: /home/grechman/grechman/advent-of-code/fifth
+- command: /usr/bin/elixir --no-halt --sname nextls-runtime-1774262806454392779 --cookie HHYKTHK2JHVUZI3HDBMAF64GPJFPN4AV4Y7CQDE27SSFQKZPVAFQ==== -S mix loadpaths --no-compile
+
+Environment: 
+
+LSP=nextls
+NEXTLS_PARENT_PID=g1h3I25leHQtbHMtMTc3NDI2MjgwMzM1NDc3OTAzOUB6ZW5ib29rAAAA3wAAAABpwRoU
+MIX_ENV=dev
+MIX_TARGET=host
+MIX_BUILD_ROOT=.elixir-tools/_build
+ROOTDIR=false
+BINDIR=false
+RELEASE_ROOT=false
+RELEASE_SYS_CONFIG=false
+PATH=/usr/bin:/home/grechman/.local/share/.burrito/next_ls_erts-15.2_0.23.4/bin:/home/grechman/.local/share/nvim/mason/bin:/home/grechman/.npm-global/bin:/home/grechman/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/grechman/go/bin
+
+
+13:46:46.455 [debug] handled notification client -> server initialized in 2935ms
+
+13:46:47.491 [debug] sent notification server -> client window/logMessage
+
+13:46:47.491 [info] Connected to node nextls-runtime-1774262806454392779@zenbook
+
+13:46:47.856 [debug] sent notification server -> client $/progress
+
+13:46:47.858 [debug] sent notification server -> client window/logMessage
+
+13:46:47.858 [debug] Runtime for folder /home/grechman/grechman/advent-of-code/fifth is ready...
+
+13:46:47.860 id=258 [debug] sent request server -> client window/workDoneProgress/create
+
+13:46:47.860 [debug] sent notification server -> client $/progress
+
+13:46:47.893 [debug] sent notification server -> client $/progress
+
+13:46:47.893 [debug] sent notification server -> client window/logMessage
+
+13:46:47.893 [info] Compiled /home/grechman/grechman/advent-of-code/fifth!
+
+14:46:17.549 [debug] handled notification client -> server textDocument/didChange in 17ms
+
+14:46:17.757 [debug] handled notification client -> server textDocument/didChange in 298µs
+
+14:46:18.770 [debug] handled notification client -> server textDocument/didChange in 320µs
+
+14:46:20.327 [debug] handled notification client -> server textDocument/didChange in 539µs
+
+14:46:20.472 [debug] handled notification client -> server textDocument/didChange in 358µs
+
+14:46:21.386 [debug] handled notification client -> server textDocument/didChange in 348µs
+
+14:46:21.389 [debug] handled notification client -> server textDocument/didChange in 389µs
+
+14:46:22.625 [debug] handled notification client -> server textDocument/didChange in 343µs
+
+14:46:23.061 [debug] handled notification client -> server textDocument/didChange in 415µs
+
+14:46:23.602 [debug] handled notification client -> server textDocument/didChange in 305µs
+
+14:46:24.240 [debug] handled notification client -> server textDocument/didChange in 425µs
+
+14:46:24.463 [debug] handled notification client -> server textDocument/didChange in 344µs
+
+14:46:25.467 [debug] handled notification client -> server textDocument/didChange in 294µs
+
+14:46:25.641 [debug] handled notification client -> server textDocument/didChange in 368µs
+
+14:46:27.191 [debug] handled notification client -> server textDocument/didChange in 388µs
+
+14:46:28.062 [debug] handled notification client -> server textDocument/didChange in 392µs
+
+14:46:28.348 [debug] handled notification client -> server textDocument/didChange in 846µs
+
+14:46:29.447 [debug] handled notification client -> server textDocument/didChange in 401µs
+
+14:46:29.596 [debug] handled notification client -> server textDocument/didChange in 396µs
+
+14:46:31.307 [debug] handled notification client -> server textDocument/didChange in 271µs
+
+14:46:31.457 [debug] handled notification client -> server textDocument/didChange in 409µs
+
+14:46:48.031 [debug] handled notification client -> server textDocument/didChange in 386µs
+
+14:46:48.782 [debug] handled notification client -> server textDocument/didChange in 519µs
+
+14:46:50.880 id=1667 [debug] sent request server -> client window/workDoneProgress/create
+
+14:46:50.881 [debug] handled notification client -> server textDocument/didSave in 3ms
+
+14:46:50.881 [debug] sent notification server -> client $/progress
+
+14:46:50.887 [debug] sent notification server -> client window/logMessage
+
+14:46:50.887 [info] Compiling 1 file (.ex)
+
+
+14:46:50.891 id=290 [debug] sent request server -> client window/workDoneProgress/create
+
+14:46:50.892 [debug] sent notification server -> client $/progress
+
+14:46:50.902 [debug] sent notification server -> client window/logMessage
+
+14:46:50.902 [info] warning: a..b inside match is deprecated, you must always match on the step: a..b//var or a..b//_ if you want to ignore it
+  lib/fifth.ex:21: (file)
+
+warning: x..y inside match is deprecated, you must always match on the step: x..y//var or x..y//_ if you want to ignore it
+  lib/fifth.ex:21: (file)
+
+
+
+14:46:50.902 [debug] sent notification server -> client window/logMessage
+
+14:46:50.902 [info] warning: a..b inside match is deprecated, you must always match on the step: a..b//var or a..b//_ if you want to ignore it
+  lib/fifth.ex:24: (file)
+
+
+
+14:46:50.945 [debug] sent notification server -> client window/logMessage
+
+14:46:50.945 [info] 712
+
+
+14:46:50.945 [debug] sent notification server -> client window/logMessage
+
+14:46:50.945 [info] 332998283036771
+
+
+14:46:50.969 [debug] sent notification server -> client $/progress
+
+14:46:50.969 [debug] sent notification server -> client window/logMessage
+
+14:46:50.969 [info] Compiled /home/grechman/grechman/advent-of-code/fifth!
+
+14:46:50.971 [debug] sent notification server -> client textDocument/publishDiagnostics
+
+14:46:51.007 [debug] sent notification server -> client $/progress
+
+14:46:55.978 id=322 [debug] sent request server -> client window/workDoneProgress/create
+
+14:46:55.979 id=2 [debug] handled request client -> server shutdown in 1ms
+
+14:46:55.980 id=3 [debug] handled request client -> server shutdown in 326µs
+
+14:46:55.980 [debug] handled notification client -> server textDocument/didSave in 3ms
+
+14:46:55.983 [debug] sent notification server -> client $/progress
+
+14:46:55.984 [error] Writer crashed (:epipe)
+
+14:46:55.984 [debug] sent notification server -> client window/logMessage
+
+14:46:55.984 [info] warning: a..b inside match is deprecated, you must always match on the step: a..b//var or a..b//_ if you want to ignore it
+  lib/fifth.ex:21: (file)
+
+
+
+14:46:55.988 [debug] sent notification server -> client window/logMessage
+
+14:46:55.984 [error] GenServer #PID<0.65.0> terminating
+** (stop) :terminated
+Last message: {:EXIT, #PID<0.70.0>, :terminated}
+State: {:state, :user_sup, :undefined, #PID<0.70.0>, {#PID<0.65.0>, :user_sup}}
+
+14:46:55.988 [info] warning: x..y inside match is deprecated, you must always match on the step: x..y//var or x..y//_ if you want to ignore it
+  lib/fifth.ex:21: (file)
+
+warning: a..b inside match is deprecated, you must always match on the step: a..b//var or a..b//_ if you want to ignore it
+  lib/fifth.ex:24: (file)
+
+
+
+14:46:55.989 [debug] sent notification server -> client $/progress
+
+14:46:55.989 [debug] sent notification server -> client window/logMessage
+
+14:46:55.989 [info] Compiled /home/grechman/grechman/advent-of-code/fifth!
+
+14:46:55.989 [debug] sent notification server -> client textDocument/publishDiagnostics
+
+14:46:55.991 [debug] sent notification server -> client textDocument/publishDiagnostics
