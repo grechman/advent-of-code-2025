@@ -3273,3 +3273,10 @@ warning: a..b inside match is deprecated, you must always match on the step: a..
 14:46:55.989 [debug] sent notification server -> client textDocument/publishDiagnostics
 
 14:46:55.991 [debug] sent notification server -> client textDocument/publishDiagnostics
+
+13:39:33.588 [notice] SIGTERM received - shutting down
+
+
+13:39:33.590 [debug] sent notification server -> client window/logMessage
+
+13:39:33.590 [info] The runtime for /home/grechman/grechman/advent-of-code/fifth has successfully shut down.
